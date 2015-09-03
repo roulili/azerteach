@@ -1,0 +1,29 @@
+body, html
+{height:100%; font-family: 'Open Sans', sans-serif;}
+.hidden
+{display:none!important;}
+.font-thin
+{font-weight: 100}
+
+/*NAVBAR*/
+.navbar
+{position:fixed; width:100%;}
+.nav-phone
+{font-weight: 700; font-size:1.5em;}
+/*Navbar-landing*/
+.navbar-landing ul li a, .navbar-landing .navbar-brand
+{color: rgb(239,237,237);}
+
+.section-landing
+{background-image: url('../img/landing-1.jpg'); background-size: cover; text-align:center; color:white; height:100%;}
+#landing-logo
+{margin-top:150px; margin-left:auto; margin-right:auto;}
+.section-landing h2
+{font-family: 'Open Sans'; text-transform:uppercase; font-weight:800; margin-top:30px; font-size:2.9em;}
+.section-landing h2 small
+{font-family: 'Minion Pro'; text-transform: lowercase; font-style:italic; font-size:0.9em;}
+.section-landing .more
+{width:100%; position:absolute; bottom:70px;}
+
+#floating-nav
+{}
