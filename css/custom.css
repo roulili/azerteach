@@ -13,17 +13,46 @@ body, html
 /*Navbar-landing*/
 .navbar-landing ul li a, .navbar-landing .navbar-brand
 {color: rgb(239,237,237);}
+.navbar-landing .navbar-brand
+{position:absolute; left:0px;}
+.navbar-landing .nav-phone
+{position:absolute; top:0px; right:0px;}
+.navbar-landing .floating-nav
+{display:none;}
+/*Navbar-white*/
+.navbar-white
+{
+	background-color:rgb(239,237,237);
+	border-radius:0px;
+	-webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    text-align:center;
+    height:55px;
+}
+.navbar-white ul li a, .navbar-white .navbar-brand, #floating-nav li a
+{color: rgb(53,65,68);}
+.navbar-white .floating-nav
+{float:none; display:inline-block;}
+.floating-nav li a
+{width:150px;}
 
+/*Floating nav floating*/
+#floating-nav
+{position:absolute; bottom:-30px; text-align:center; width:100%;}
+#floating-nav ul
+{background-color: rgb(239,237,237); float:none; display:inline-block; height:55px; box-shadow: 0px 5px 15px rgba(0,0,0,0.3);}
+
+
+/*First section*/
 .section-landing
-{background-image: url('../img/landing-1.jpg'); background-size: cover; text-align:center; color:white; height:100%;}
+{background-image: url('../img/landing-1.jpg'); background-size: cover; text-align:center; color:white; height:100%; 
+box-shadow: 0px 5px 15px rgba(0,0,0,0.3);}
 #landing-logo
 {margin-top:150px; margin-left:auto; margin-right:auto;}
 .section-landing h2
 {font-family: 'Open Sans'; text-transform:uppercase; font-weight:800; margin-top:30px; font-size:2.9em;}
 .section-landing h2 small
-{font-family: 'Minion Pro'; text-transform: lowercase; font-style:italic; font-size:0.9em;}
+{font-family: 'Minion Pro'; text-transform: lowercase; font-style:italic; font-size:0.9em; color:white;}
 .section-landing .more
 {width:100%; position:absolute; bottom:70px;}
-
-#floating-nav
-{}
