@@ -1,10 +1,13 @@
 body, html
 {height:100%; font-family: 'Open Sans', sans-serif;}
+body
+{overflow-x: hidden}
 .hidden
 {display:none!important;}
 .font-thin
 {font-weight: 100}
-
+.text-blue
+{color:#1fbae2;}
 /*NAVBAR*/
 .navbar
 {position:fixed; width:100%;}
@@ -56,3 +59,51 @@ box-shadow: 0px 5px 15px rgba(0,0,0,0.3);}
 {font-family: 'Minion Pro'; text-transform: lowercase; font-style:italic; font-size:0.9em; color:white;}
 .section-landing .more
 {width:100%; position:absolute; bottom:70px;}
+
+
+/*Section welcome*/
+.section-welcome
+{margin-top:50px; color:white; width:100%; overflow-x:hidden;}
+.background-blue
+{position:absolute; z-index:-1; left:-999px; right:-999px; margin:auto; max-height:750px;}
+.section-welcome h1
+{text-align:center; margin-top:15%; font-size:28px; margin-bottom:30px;}
+.section-welcome p
+{font-family: 'Minion Pro'; font-style: italic; font-weight:400; font-size:28px; margin-top:30px; text-align:center;}
+.section-welcome .separation
+{background-image: url('../img/separation.png'); height:4px;}
+
+/*Section etudes encadrées*/
+.section-photo-etudes img
+{width:100%; z-index:-2; position:absolute;}
+.azerbloc
+{
+	font-family:'Open Sans';
+}
+.azerbloc .azerform
+{
+	position: absolute;
+	left: -999px;
+	right: -999px;
+	margin: auto;
+	width: 70%;
+	z-index:-1;
+}
+.azerbloc h3
+{
+	width:100%;
+	text-align:center;
+	left:0px;
+	margin-top:30px;
+	font-size:18px;
+	text-transform: uppercase;
+	font-weight:600;
+}
+.azerbloc p
+{
+	margin-top:55px;
+	font-size:16px;
+	font-weight:400;
+}
+h3.section-caption
+{color:white; font-family:'Open Sans'; font-weight:600; text-transform:uppercase; margin-top:105px; font-size:24px;}
