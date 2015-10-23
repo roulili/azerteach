@@ -13,7 +13,7 @@ body
 .page-title small
 {font-family: 'Minion Pro'; text-transform: lowercase; font-style:italic; font-size:0.9em; color:white;}
 #matiere-logo
-{margin-top: 150px;}
+{margin-top: 150px; width:150px;}
 /*NAVBAR*/
 .navbar
 {position:fixed; width:100%; z-index: 100; text-align: center}
@@ -256,7 +256,6 @@ td  a:hover
 /*----------------------------------------------------------------------Page Blocus--------------------------------------------------------------------------------------*/
 body#service-blocus
 {background-image: url('../img/fond-blocus.jpg'); background-attachment:fixed; background-size: cover}
-
 /*First section*/
 .section-service-top
 {color:white; min-height:50%; padding-bottom:100px; text-align: center}
@@ -378,3 +377,26 @@ color:#1dbae2; font-weight:600; margin-bottom:-100px;}
 {margin: 100px 0px; width:70%;}
 .section-map img
 {z-index:0;}
+
+/*CONTACT*/
+.section-contact-top
+{background-image: url('../img/small-pointe-bas.png'); background-size: 100% 100%; text-align:center; color:white; min-height:50%; width:100%;
+ padding-bottom:100px;}
+body#contact
+{background-image: url('../img/fond-contact.jpg'); background-attachment:fixed; background-size: cover}
+.section-contact-form
+{position:relative; z-index:-2; margin-bottom:100px;}
+.section-contact-form .matiere-details
+{padding-top:150px; text-align: center; margin-bottom:-50px; margin-top: -100px;}
+.btn-azt
+{background-color:#1dbae2; color:white; box-shadow: 0px 5px 15px rgba(0,0,0,0.3); border-radius:5px; padding:7px 25px; display:block; width:100%; text-transform: uppercase;}
+.section-contact-contact
+{margin-top:100px; padding-top:100px;}
+
+/*GALLERIE*/
+body#gallerie
+{background-image:url('../img/fond-gallerie.jpg'); background-size:cover; background-attachment:fixed;}
+.section-gallerie
+{ text-align:center;}
+.section-contact-gallerie
+{margin-top:0px; padding-top:100px; background-image:url('../img/fond-tel-contact.png'); background-size:100%; background-color:transparent;}
