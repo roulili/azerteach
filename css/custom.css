@@ -400,3 +400,9 @@ body#gallerie
 { text-align:center;}
 .section-contact-gallerie
 {margin-top:0px; padding-top:100px; background-image:url('../img/fond-tel-contact.png'); background-size:100%; background-color:transparent;}
+.gallerie-wrapper
+{margin:100px 0px;}
+.gallery-item
+{width:200px; height:200px; display:inline-block;overflow:hidden;}
+
+

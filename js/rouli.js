@@ -15,3 +15,4 @@ var m = 180/1920*$('#section-stages-background').width();
 $('.section-stages').css({'margin-top': -m});
 
 $('.section-carte').height($('#section-carte-background').height());
+

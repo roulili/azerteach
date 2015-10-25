@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Google fonts -->
@@ -51,8 +51,36 @@
       <h2 class="page-title"><small>notre quotidien en images</small></h2>
       <div class="gallerie-wrapper">
         <div class="row">
-          <div class="col-sm-3">
-            <img src="img/gallerie/img-1.jpg" class="gallerie-img-small"/>
+          <a href="img/gallery/big/img-1.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-1.jpg" />
+          </a>
+          <a href="img/gallery/big/img-2.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-2.jpg" />
+          </a>
+          <a href="img/gallery/big/img-3.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-3.jpg" />
+          </a>
+          <a href="img/gallery/big/img-4.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-4.jpg" />
+          </a>
+          <a href="img/gallery/big/img-5.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-5.jpg" />
+          </a>
+          <a href="img/gallery/big/img-6.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-6.jpg" />
+          </a>
+          <a href="img/gallery/big/img-7.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-7.jpg" />
+          </a>
+          <a href="img/gallery/big/img-8.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-8.jpg" />
+          </a>
+          <a href="img/gallery/big/img-9.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-9.jpg" />
+          </a>
+          <a href="img/gallery/big/img-10.jpg" class="gallery-item">
+            <img src="img/gallery/small/img-10.jpg" />
+          </a>
         </div>
       </div>
     </div>
@@ -136,5 +164,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/scrollspy.js"></script>
     <script src="js/rouli.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+
+    <script>
+    $('.gallery-item').magnificPopup({
+      type: 'image',
+      gallery:{
+        enabled:true
+      }
+    });
+    </script>
   </body>
 </html>
