@@ -17,69 +17,7 @@
   </head>
   <body id="service-blocus">
     <!-- Navbar -->
-<nav class="navbar navbar-landing navbar-normal">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><span class="font-thin">azer</span>teach</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">présentation</a></li>
-        <li class="active dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            matieres
-            <span class="sr-only">(current)</span>
-            <span class="caret"></span>
-          </a>
-           <ul class="dropdown-menu">
-            <li><a href="#">Maths</a></li>
-            <li><a href="#">Sciences</a></li>
-            <li><a href="#">Français</a></li>
-            <li><a href="#">Néerlandais</a></li>
-          </ul>
-        </li>
-        <li class="active dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            services
-            <span class="sr-only">(current)</span>
-            <span class="caret"></span>
-          </a>
-           <ul class="dropdown-menu">
-            <li><a href="#">Cours particuliers</a></li>
-            <li><a href="#">Etudes encadrées</a></li>
-            <li><a href="#">Blocus assistés</a></li>
-            <li><a href="#">Stages</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">supérieur <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Blocus encadré</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li><a href="#">gallerie</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-  
-      <ul class="nav navbar-nav navbar-right nav-phone">
-        <li class="nav-item">
-          <a class="nav-link" href="#">02 344 35 43</a>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+<?php include('../includes/navbar.php'); ?>
 
     <div class="section section-service-top">
       <img src="../img/services/landing-blocus.png" class="background-image" />
@@ -210,68 +148,9 @@
       </div>
     </div>
 
-    <div class="section section-map">
-      <img src="../img/pointe-haute.png" class="background-image">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center map">
-            <img src="../img/contact-map.png" class="contact-map" />
-          </div>
-        </div>
-      </div>
-    </div>
+<?php include('../includes/section-map.php'); ?>
 
-        <div class="section-footer">
-     <div class="container">
-      <div class="row firstrow">
-        <div class="col-md-8">
-        <table class="tableau">    
-          <tr>
-            <td width="5%"><a href="#">Présentation</a></th>
-            <th width="5%">Matières</th>
-            <th width="5%">Services</th>
-          </tr>
-          <tr>
-            <td><a href="#">Galeries</a></td>
-            <td><a href="#">Mathématique</a></td>
-            <td><a href="#">Cours particuliers</a></td>
-          </tr>
-          <tr>
-            <td><a href="#">Philosophie</a></td>
-            <td><a href="#">Sciences</a></td>
-            <td><a href="#">Etude Encadrée</a></td>
-          </tr>
-          <tr>
-            <td><a href="#">Contact</a></td>
-            <td><a href="#">Anglais</a></td>
-            <td><a href="#">Stage de vacances</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><a href="#">Néerlandais</a></td>
-            <td><a href="#">Blocus assisté</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><a href="#">Français</a></td>
-            <td><a href="#">Méthode de travail</a></td>
-          </tr>
-        </table>
-        </div>
-        <div class="col-md-4">
-        <img src="../img/logo2.png" id="logo2"/>
-        </div>
-      </div>
-     </div>
-   
-     <div class="cgu">
-       <div class="container">
-         <div class="row secondrow">
-            <div class="col-md-6"><a href="#">Conditions générales d'utilisation</a></div>
-            <div class="col-md-6"><a href="#">© 2015 Azerteach</a></div>
-        </div>
-      </div>
-    </div>
+<?php include('../includes/footer.php'); ?>
 	    <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

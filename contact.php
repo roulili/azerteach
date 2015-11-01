@@ -17,33 +17,7 @@
   </head>
   <body id="gallerie">
 
-  <nav class="navbar navbar-landing navbar-normal">
-    <a class="navbar-brand" href="#"><span class="font-thin">azer</span>teach</a>
-
-    <ul class="nav navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">présentation <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">matières</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">galerie</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">contact</a>
-      </li>
-    </ul>
-
-    <ul class="nav navbar-nav nav-phone">
-      <li class="nav-item">
-        <a class="nav-link" href="#">02 344 35 43</a>
-      </li>
-    </ul>
-  </nav>
+<?php include('includes/navbar.php'); ?>
 
 
   <div class="section section-contact-top">
@@ -138,57 +112,7 @@
       </div>
     </div>
 
-        <div class="section-footer">
-     <div class="container">
-      <div class="row firstrow">
-        <div class="col-md-8">
-        <table class="tableau">    
-          <tr>
-            <td width="5%"><a href="#">Présentation</a></th>
-            <th width="5%">Matières</th>
-            <th width="5%">Services</th>
-          </tr>
-          <tr>
-            <td><a href="#">Galeries</a></td>
-            <td><a href="#">Mathématique</a></td>
-            <td><a href="#">Cours particuliers</a></td>
-          </tr>
-          <tr>
-            <td><a href="#">Philosophie</a></td>
-            <td><a href="#">Sciences</a></td>
-            <td><a href="#">Etude Encadrée</a></td>
-          </tr>
-          <tr>
-            <td><a href="#">Contact</a></td>
-            <td><a href="#">Anglais</a></td>
-            <td><a href="#">Stage de vacances</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><a href="#">Néerlandais</a></td>
-            <td><a href="#">Blocus assisté</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><a href="#">Français</a></td>
-            <td><a href="#">Méthode de travail</a></td>
-          </tr>
-        </table>
-        </div>
-        <div class="col-md-4">
-        <img src="img/logo2.png" id="logo2"/>
-        </div>
-      </div>
-     </div>
-   
-     <div class="cgu">
-       <div class="container">
-         <div class="row secondrow">
-            <div class="col-md-6"><a href="#">Conditions générales d'utilisation</a></div>
-            <div class="col-md-6"><a href="#">© 2015 Azerteach</a></div>
-        </div>
-      </div>
-    </div>
+<?php include('includes/footer.php'); ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

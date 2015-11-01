@@ -58,11 +58,11 @@
             <span class="caret"></span>
           </a>
            <ul class="dropdown-menu">
-            <li><a href="#">Mathématiques</a></li>
-            <li><a href="#">Sciences</a></li>
-            <li><a href="#">Anglais</a></li>
-            <li><a href="#">Néerlandais</a></li>
-            <li><a href="#">Français</a></li>
+            <li><a href="/matieres/mathematiques">Mathématiques</a></li>
+            <li><a href="/matieres/sciences">Sciences</a></li>
+            <li><a href="/matieres/francais">Français</a></li>
+            <li><a href="/matieres/anglais">Anglais</a></li>
+            <li><a href="/matieres/neerlandais">Néerlandais</a></li>
           </ul>
         </li>
         <li class="active dropdown">
@@ -72,23 +72,22 @@
             <span class="caret"></span>
           </a>
            <ul class="dropdown-menu">
-            <li><a href="#">Cours particuliers</a></li>
-            <li><a href="#">Etudes encadrées</a></li>
-            <li><a href="#">Stages de vacances</a></li>
-            <li><a href="#">Blocus assistés</a></li>
-            <li><a href="#">Méthode de travail</a></li>
+            <li><a href="/services/cours-particuliers">Cours particuliers</a></li>
+            <li><a href="/services/etudes-encadrees">Etudes encadrées</a></li>
+            <li><a href="/services/stages">Stages de vacances</a></li>
+            <li><a href="/services/blocus-assiste">Blocus assistés</a></li>
+            <li><a href="/services/methode-de-travail">Méthode de travail</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">supérieur <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Blocus encadré</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="/services/blocus-assiste">Blocus assisté</a></li>
+            <li><a href="/services/methode-de-travail">Méthode de travail</a></li>
           </ul>
         </li>
-        <li><a href="#">gallerie</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="/gallerie">gallerie</a></li>
+        <li><a href="/contact">contact</a></li>
       </ul>
     </nav>
 
@@ -248,58 +247,8 @@
       </div>
     </div>
 	
-	<div class="section-footer">
-		 <div class="container">
-			<div class="row firstrow">
-			  <div class="col-md-8">
-				<table class="tableau">    
-					<tr>
-						<td width="5%"><a href="#">Présentation</a></th>
-						<th width="5%">Matières</th>
-						<th width="5%">Services</th>
-					</tr>
-					<tr>
-						<td><a href="#">Galeries</a></td>
-						<td><a href="#">Mathématique</a></td>
-						<td><a href="#">Cours particuliers</a></td>
-					</tr>
-					<tr>
-						<td><a href="#">Philosophie</a></td>
-						<td><a href="#">Sciences</a></td>
-						<td><a href="#">Etude Encadrée</a></td>
-					</tr>
-					<tr>
-						<td><a href="#">Contact</a></td>
-						<td><a href="#">Anglais</a></td>
-						<td><a href="#">Stage de vacances</a></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><a href="#">Néerlandais</a></td>
-						<td><a href="#">Blocus assisté</a></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><a href="#">Français</a></td>
-						<td><a href="#">Méthode de travail</a></td>
-					</tr>
-				</table>
-			  </div>
-			  <div class="col-md-4">
-				<img src="img/logo2.png" id="logo2"/>
-			  </div>
-			</div>
-		 </div>
-	 
-		 <div class="cgu">
-			 <div class="container">
-				 <div class="row secondrow">
-						<div class="col-md-6"><a href="#">Conditions générales d'utilisation</a></div>
-						<div class="col-md-6"><a href="#">© 2015 Azerteach</a></div>
-				</div>
-			</div>
-		</div>
-	
+<?php include('includes/footer.php'); ?>
+
 	</div>
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
