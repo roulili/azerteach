@@ -13,41 +13,78 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../css/custom.css">
   </head>
   <body id="service-blocus">
     <!-- Navbar -->
-    <nav class="navbar navbar-landing">
+<nav class="navbar navbar-landing navbar-normal">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="#"><span class="font-thin">azer</span>teach</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">présentation <span class="sr-only">(current)</span></a>
+        <li><a href="#">présentation</a></li>
+        <li class="active dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            matieres
+            <span class="sr-only">(current)</span>
+            <span class="caret"></span>
+          </a>
+           <ul class="dropdown-menu">
+            <li><a href="#">Maths</a></li>
+            <li><a href="#">Sciences</a></li>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">Néerlandais</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">matières</a>
+        <li class="active dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            services
+            <span class="sr-only">(current)</span>
+            <span class="caret"></span>
+          </a>
+           <ul class="dropdown-menu">
+            <li><a href="#">Cours particuliers</a></li>
+            <li><a href="#">Etudes encadrées</a></li>
+            <li><a href="#">Blocus assistés</a></li>
+            <li><a href="#">Stages</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">services</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">supérieur <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Blocus encadré</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">galerie</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
-        </li>
+        <li><a href="#">gallerie</a></li>
+        <li><a href="#">contact</a></li>
       </ul>
-	  
-	  <ul class="nav navbar-nav nav-phone">
-		<li class="nav-item">
+  
+      <ul class="nav navbar-nav navbar-right nav-phone">
+        <li class="nav-item">
           <a class="nav-link" href="#">02 344 35 43</a>
         </li>
-	  </ul>
-    </nav>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
     <div class="section section-service-top">
-      <img src="img/landing-2.png" class="background-image" />
+      <img src="../img/services/landing-blocus.png" class="background-image" />
       <div class="container">
-        <img src="img/logo.png" id="matiere-logo" alt="logo"/>
+        <img src="../img/logo.png" id="matiere-logo" alt="logo"/>
         <h2 class="page-title">Blocus assisté<br/><small>un cadre idéal</small></h2>
       </div>
     </div>
@@ -57,7 +94,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
             <h3>Préparez vos examens dans les meilleures conditions !</h3>
-            <img src="img/filets-points.png" class="filet-points" />
+            <img src="../img/filets-points.png" class="filet-points" />
             
             <h4 class="text-left">Les avantages d'un blocus assisté</h4>
             <ul class="text-left">
@@ -87,7 +124,7 @@
     </div>
 
     <div class="section section-ribbon">
-      <img src="img/ribbon.png" class="background-image">
+      <img src="../img/ribbon.png" class="background-image">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
@@ -124,7 +161,7 @@
                 <span class="text-blue">—</span> Chaque étudiant dispose de l‘espace dont il a besoin pour réviser ses cours individuellement ou en petits groupes si cela est jugé nécessaire.
               </p>
               <div class="to-gallerie">
-                <img src="img/background-galerie.jpg" class="background-image-galerie"/>
+                <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
                 <button class="btn btn-galerie">voir la galerie</button>
               </div>
             </div>
@@ -137,7 +174,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 matiere-details matiere-details-transparent resume">
-            <img src="img/fond-resume.png" class="background-image"/>
+            <img src="../img/fond-resume.png" class="background-image"/>
             <h3>En résumé, avec son coach :</h3>
             <ul>
               <li>L’étudiant établit, à son arrivée, un programme d’étude pour l’entièreté de son blocus.</li>
@@ -145,9 +182,9 @@
               <li>Il fait l’état des lieux, au terme de chaque journée, de ses efforts et progrès et adapte si nécessaire les objectifs à atteindre pour le lendemain.</li>
             </ul>
             <div class="azerbloc">
-              <img src="img/bloc-resume.png" class="azerform" />
+              <img src="../img/bloc-resume.png" class="azerform" />
               <h3 class="text-blue">Infos pratiques</h3>
-              <img src="img/filets-points.png" class="filet-points" />
+              <img src="../img/filets-points.png" class="filet-points" />
               <h4>Horaires</h4>
               <p class="text-blue">
                 Du <b>lundi au vendredi</b>, de <b>9h30 à 19h30</b><br />(ouverture possible le week-end)
@@ -174,11 +211,11 @@
     </div>
 
     <div class="section section-map">
-      <img src="img/pointe-haute.png" class="background-image">
+      <img src="../img/pointe-haute.png" class="background-image">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center map">
-            <img src="img/contact-map.png" class="contact-map" />
+            <img src="../img/contact-map.png" class="contact-map" />
           </div>
         </div>
       </div>
@@ -222,7 +259,7 @@
         </table>
         </div>
         <div class="col-md-4">
-        <img src="img/logo2.png" id="logo2"/>
+        <img src="../img/logo2.png" id="logo2"/>
         </div>
       </div>
      </div>
@@ -238,7 +275,7 @@
 	    <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/scrollspy.js"></script>
-    <script src="js/rouli.js"></script>
+    <script src="../js/scrollspy.js"></script>
+    <script src="../js/rouli.js"></script>
   </body>
 </html>

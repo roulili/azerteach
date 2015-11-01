@@ -1,4 +1,5 @@
-$('.section-photo-etudes').height($('#photo-etudes').height());
+
+/*$('.section-photo-etudes').height($('#photo-etudes').height());
 var m = 160/1920*$('#section-etudes-background').width();
 $('.section-etudes').css({'margin-top': -m});
 
@@ -16,3 +17,4 @@ $('.section-stages').css({'margin-top': -m});
 
 $('.section-carte').height($('#section-carte-background').height());
 
+*/

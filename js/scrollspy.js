@@ -1,5 +1,6 @@
 var first_section_height = $('.section-landing').height() - 30; // - 30 car le floating nav est 30px plus haut que le bas de la première section
 var inserted = false;
+
 $(window).on('scroll', function() {
     var y_scroll_pos = window.pageYOffset;
     var scroll_pos_test = 10;             // set to whatever you want it to be
