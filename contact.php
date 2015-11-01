@@ -1,3 +1,26 @@
+<?php 
+if(isset($_POST['action']) && $_POST['action']=='contact')
+{
+  $to = "hello@azerteach.com"; // this is your Email address
+  $from = $_POST['email']; // this is the sender's Email address
+  $name = $_POST['name'];
+  $subject = "contact via site web";
+  $subject2 = "votre demande à Azerteach";
+  $message = $name ." a écrit le message suivant:" . "\n\n" . $_POST['message'];
+  $message2 = "Voici une copie de votre message:" . "\n\n" . $_POST['message'];
+
+  $message .= "\n\n" . "Coordonnées de contact: " . "\n" ."email: ".$_POST['email']. "\n" . "telephone: ".$_POST['telephone'];
+  $message .= "\n\n" . "Cette personne a entendu parler d'Azerteach par: ".$_POST['origin'];
+
+  $headers = "From:" . $from;
+  $headers2 = "From:" . $to;
+  mail($to,$subject,$message,$headers);
+  mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+  $messageInfo = array('code'=>'success', 'content'=>'Votre message nous a bien été envoyé. Nous prendrons contact avec vous dans les plus bref délais.');
+  // You can also use header('Location: thank_you.php'); to redirect to another page.
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,7 +38,7 @@
 
     <link rel="stylesheet" href="css/custom.css">
   </head>
-  <body id="gallerie">
+  <body id="contact">
 
 <?php include('includes/navbar.php'); ?>
 
@@ -26,12 +49,13 @@
       <h2 class="page-title">Contactez-nous !</h2>
     </div>
   </div>
-
+<?php if(!isset($messageInfo)){ ?>
       <div class="section section-contact-form">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
-          <form class="form text-left" role="form" methode="post" action="#">
+          <form class="form text-left" role="form" method="POST" action="">
+            <input type="hidden" name="action" value="contact" />
             <p>L'équipe Azerteach se tient à votre disposition:</p>
             <p class="text-center">
               du <span class="text-blue">lundi au vendredi</span> de <span class="text-blue">14h à 19h30</span>.
@@ -50,10 +74,6 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <label for="subject">Sujet</label>
-                <input type="text" name="subject" class="form-control" id="subject"/>
-              </div>
-              <div class="col-sm-6">
                 <label for="telephone">Telephone</label>
                 <input type="text" name="telephone" class="form-control" id="telephone" />
               </div>
@@ -62,7 +82,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <div class="form-group">
-                  <textarea class="form-control" rows="5" >Message
+                  <textarea class="form-control" rows="5" name="message">Message
                   </textarea>
                 </div>
               </div>
@@ -72,11 +92,11 @@
                 <label for="origin">Comment avez-vous connu Azerteach ?</label>
                 <select class="form-control" name="origin" id="origin">
                   <option selected disabled>Choisissez une option</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                  <option value="Moteur de recherche">Moteur de recherche</option>
+                  <option value="Réseaux sociaux">Réseaux sociaux</option>
+                  <option value="Structures officielles">Structures officielles (PMS, centre de médiation, école...)</option>
+                  <option value="bouche à oreille">Bouche à oreille</option>
+                  <option value="autre">Autre</option>
                 </select>
               </div>
               <div class="col-sm-4">
@@ -89,6 +109,26 @@
         </div>
       </div>
     </div>
+  <?php } 
+  elseif($messageInfo['code']=='success')
+    {
+      ?>
+    <div class="section section-contact-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 matiere-details">
+            <p class="alert alert-success"><?php echo $messageInfo['content']; ?></p>
+            <p>L'équipe Azerteach se tient à votre disposition:</p>
+            <p class="text-center">
+              du <span class="text-blue">lundi au vendredi</span> de <span class="text-blue">14h à 19h30</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+<?php
+    }
+    ?>
     
     <div class="section section-contact section-contact-contact">
       <div class="container">
