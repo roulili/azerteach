@@ -76,8 +76,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
-            « Tous les professeurs étaient capables d’expliquer chacune de leurs matières, sans compliquer les choses. »<br />
-            <small>- Fabiola</small>
+            « J'ai pu réussir mon examen de maths, ce qui ne s'annonçait pas gagné! »<br />
+            <small>- Selim</small>
           </div>
         </div>
       </div>

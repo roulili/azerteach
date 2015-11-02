@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
-            « Tous les professeurs étaient capables d’expliquer chacune de leurs matières, sans compliquer les choses. »<br />
+            « Les expériences concrètes en physique chimie sont bien plus intéressantes que les cours théoriques! »<br />
             <small>- Fabiola</small>
           </div>
         </div>
@@ -149,7 +149,7 @@
               </p>
               <div class="to-gallerie">
                 <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
-                <button class="btn btn-galerie">voir la galerie</button>
+                <a href="/gallerie" class="btn btn-galerie">voir la galerie</a>
               </div>
             </div>
           </div>

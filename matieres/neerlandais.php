@@ -81,8 +81,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
-            « Tous les professeurs étaient capables d’expliquer chacune de leurs matières, sans compliquer les choses. »<br />
-            <small>- Fabiola</small>
+            « J'ai beaucoup progressé durant ces quelques mois, grâce au travail régulier avec mon professeur.»<br />
+            <small>- Fernando</small>
           </div>
         </div>
       </div>

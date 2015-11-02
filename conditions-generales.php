@@ -22,7 +22,7 @@
 
 <div class="section section-contact-top">
   <div class="container">
-    <img src="img/logo.png" id="matiere-logo" alt="logo"/>
+    <img src="img/logo.png" class="landing-logo logo-small" alt="logo"/>
     <h2 class="page-title">Condictions générales de service</h2>
   </div>
 </div>

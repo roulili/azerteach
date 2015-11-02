@@ -273,14 +273,14 @@ body#service-methodo
 {background-image: url('../img/services/methodo.jpg'); background-attachment:fixed; background-size: cover}
 /*First section*/
 .section-service-top
-{color:#fafafa; min-height:50%; padding-bottom:100px; text-align: center}
+{color:#fafafa; min-height:50%; padding-bottom:50px; text-align: center}
 
 .section-service-intro
 {
 background-image:url('../img/texture-blocus.jpg'); background-repeat:repeat; position:relative; z-index:-2; margin-bottom:100px;
 }
 .section-service-intro .matiere-details
-{padding-top:150px; text-align: center; margin-bottom:-50px; margin-top: -100px;}
+{padding-top:150px; text-align: center; margin-bottom:-50px; margin-top: -50px;}
 
 .matiere-details-blue.big-margin
 {margin-bottom: 200px;}
@@ -425,11 +425,16 @@ body#gallerie
 .section-contact-gallerie
 {margin-bottom: -130px; margin-top:0px; padding-top:100px; background-image:url('../img/fond-tel-contact.png'); background-size:100%; background-color:transparent;}
 .gallerie-wrapper
-{margin:100px 0px;}
+{margin:100px 0px; font-weight:100;}
 .gallery-item
 {width:200px; height:200px; display:inline-block;overflow:hidden; margin:10px;}
 
 .cgu p, .cgu ul, .cgu h3, .cgu h4
 {text-align:left;}
 
-
+.landing-logo
+{margin-top:150px;}
+.logo-small
+{height:100px;}
+a.disabled
+{opacity:0.7; pointer-events: none;}

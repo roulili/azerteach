@@ -66,8 +66,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
-            « Tous les professeurs étaient capables d’expliquer chacune de leurs matières, sans compliquer les choses. »<br />
-            <small>- Fabiola</small>
+            « La motivation de mon coach ainsi que les objectifs quotidiens à atteindre m'ont beacoup aidée. Merci! »<br />
+            <small>- Mélissa</small>
           </div>
         </div>
       </div>

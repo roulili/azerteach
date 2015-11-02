@@ -66,8 +66,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
-            « Tous les professeurs étaient capables d’expliquer chacune de leurs matières, sans compliquer les choses. »<br />
-            <small>- Fabiola</small>
+            « Grâce aux objectifs fixés ici, même quand je n'avais plus envie ans ma tête j'arrivais à avancer. »<br />
+            <small>- Mélissa</small>
           </div>
         </div>
       </div>

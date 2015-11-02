@@ -21,10 +21,10 @@
 
   <div class="section section-gallerie">
     <div class="container">
-      <img src="img/logo.png" id="matiere-logo" alt="logo"/>
+      <img src="img/logo.png" class="landing-logo logo-small" alt="logo"/>
       <h2 class="page-title"><small>notre quotidien en images</small></h2>
       <div class="gallerie-wrapper">
-        <div class="row">
+        <div class="row" id="pics">
           <a href="img/gallery/big/img-1.jpg" class="gallery-item">
             <img src="img/gallery/small/img-1.jpg" />
           </a>
@@ -55,6 +55,9 @@
           <a href="img/gallery/big/img-10.jpg" class="gallery-item">
             <img src="img/gallery/small/img-10.jpg" />
           </a>
+        </div>
+        <div class="row">
+          <p><a href="#" class="text-white load-more" >voir plus</a></p>
         </div>
       </div>
     </div>
@@ -91,12 +94,51 @@
     <script src="js/magnific-popup.min.js"></script>
 
     <script>
-    $('.gallery-item').magnificPopup({
-      type: 'image',
-      gallery:{
-        enabled:true
+    function initPopup()
+    {
+      $('.gallery-item').magnificPopup({
+        type: 'image',
+        gallery:{
+          enabled:true
+        }
+      });      
+    }
+    initPopup();
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $('.load-more').click(function(e){
+      e.preventDefault();
+      var j = $('#pics').children().length +5;
+      for(i=$('#pics').children().length +1; i <= j; i++)
+      {
+        url = 'img/gallery/small/img-'+i+'.jpg';
+        if(imageExists(url))
+        {
+          var img ='<a href="img/gallery/big/img-'+i+'.jpg" class="gallery-item" style="display:none"><img src="img/gallery/small/img-'+i+'.jpg" /></a>';
+          $('#pics').append(img); 
+        }
+        else
+        {
+          $(this).addClass('disabled').attr('title', 'Il n\'y a pas d\'autres images pour l\'instant!')
+        } 
       }
+      $('#pics a').slideDown('slow');
+      initPopup();
     });
+
+    function imageExists(image_url){
+
+    var http = new XMLHttpRequest();
+
+    http.open('HEAD', image_url, false);
+    http.send();
+
+    return http.status != 404;
+
+    }
     </script>
   </body>
 </html>

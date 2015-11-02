@@ -64,8 +64,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
-            « Tous les professeurs étaient capables d’expliquer chacune de leurs matières, sans compliquer les choses. »<br />
-            <small>- Fabiola</small>
+            « Grâce aux cours particuliers intensifs, ma fille a pu continuer sa scolarité dans la filière générale. »<br />
+            <small>- Marie</small>
           </div>
         </div>
       </div>
