@@ -103,7 +103,7 @@
               </p>
               <div class="to-gallerie">
                 <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
-                <button class="btn btn-galerie">voir la galerie</button>
+                <a href="/gallerie" class="btn btn-galerie">voir la galerie</a>
               </div>
             </div>
           </div>
