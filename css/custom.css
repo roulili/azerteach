@@ -429,4 +429,7 @@ body#gallerie
 .gallery-item
 {width:200px; height:200px; display:inline-block;overflow:hidden; margin:10px;}
 
+.cgu p, .cgu ul, .cgu h3, .cgu h4
+{text-align:left;}
+
 
