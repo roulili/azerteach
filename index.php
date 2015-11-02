@@ -109,7 +109,7 @@
     </div>
     <div class="section section-photo-stages fixed-bg-5">   
     </div>
-    <div class="section section-photo-etudes fixed-bg-2">
+    <div class="section section-photo-etudes fixed-bg-6">
     </div>
 
     <div class="scrolling-wrapper">
@@ -230,11 +230,12 @@
       </div>
     </div>
 	</div>
-	<div class="infos">
-		<p class="text-blue">Plus d'informations et réservation des cours :</p>
-		<p class="text-blue num">02 344 35 43</p>
-	</div>
 
+
+  <div class="infos">
+    <p class="text-blue">Plus d'informations et réservation des cours :</p>
+    <p class="text-blue num">02 344 35 43</p>
+  </div>
 
     <div class="section section-map">
       <img src="img/pointe-haute.png" class="background-image">
@@ -246,10 +247,10 @@
         </div>
       </div>
     </div>
+
 	
 <?php include('includes/footer.php'); ?>
 
-	</div>
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
