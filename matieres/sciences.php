@@ -39,16 +39,16 @@
               L’association Azerteach propose différents cours de physique, de chimie et de biologie pour tous les niveaux.
             </p>
             <ul>
-              <li>Etudes encadrées</li>
-              <li>Cours particuliers</li>
-              <li>Ateliers d'initiation</li>
+              <li><a href="#etudes-encadrees">Etudes encadrées</a></li>
+              <li><a href="#cours-particuliers">Cours particuliers</a></li>
+              <li><a href="#ateliers">Ateliers d'initiation</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="etudes-encadrees">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -69,7 +69,7 @@
               En outre, au travers de son enseignement, chaque professeur de sciences veille à ce que ses élèves développent une <strong>méthode de travail</strong> efficace, qui leur soit propre.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/etudes-encadrees">+ d'info</a></p>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="cours-particuliers">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -110,13 +110,13 @@
               <li><span class="text-grey">Découvrir et d’adopter une <strong>méthode de travail</strong> qui l’aide à comprendre et apprendre les sciences en toute autonomie.</span></li>
             </ul>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/cours-particuliers">+ d'info</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="ateliers">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -132,7 +132,7 @@
               Les ateliers d’initiation aux sciences ont lieu dans le cadre de nos <span class="text-blue">stages de vacances</span>. Selon vos envies, vous pouvez cumuler cet atelier avec un autre choisi parmi l’ensemble de nos activités organisées en cette occasion.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/stages">+ d'info</a></p>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@
               Bien plus, au travers de ses explications, le professeur les aide à reprendre <strong>confiance en eux-mêmes</strong> ainsi qu'à prendre conscience de leur haut potentiel.
             </p>
             <hr>
-            <p class="more-info">+ d'info</p>
+            <p class="more-info"><a href="/philosophie">+ d'info</a></p>
           </div>
         </div>
       </div>

@@ -38,16 +38,16 @@
               L'association Azerteach propose <b>différentes activités</b> de soutien et d'aide en maths, tant pour les élèves du primaire et du secondaire que pour les étudiants du supérieur.
             </p>
             <ul>
-              <li>Etudes encadrées</li>
-              <li>Cours particuliers</li>
-              <li>Stages de vacances</li>
+              <li><a href="#etudes-encadrees">Etudes encadrées</a></li>
+              <li><a href="#cours-particuliers">Cours particuliers</a></li>
+              <li><a href="#stages">Stages de vacances</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="etudes-encadrees">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -65,7 +65,7 @@
               De plus, les <span class="text-blue">études encadrées en maths</span> aident l'étudiant à développer une <b>méthode de travail</b> qui lui soit propre et le rende capable de résoudre, de façon autonome, un problème de maths, quel qu'il soit.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/etudes-encadrees">+ d'info</a></p>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="cours-particuliers">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -106,13 +106,13 @@
               <li><span class="text-grey">Découvrir et d’adopter une <strong>méthode de travail</strong> qui l’aide à comprendre et apprendre les maths en toute autonomie.</span></li>
             </ul>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/cours-particuliers">+ d'info</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="stages">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -128,7 +128,7 @@
               Au travers de ces différents <span class="text-blue">cours de mathématiques appliquées</span>, chaque élève sera ainsi amené à solliciter sa logique et sa rigueur mathématiques tout autant que son <strong>imagination</strong> et sa <strong>créativité</strong>.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/stages">+ d'info</a></p>
           </div>
         </div>
       </div>

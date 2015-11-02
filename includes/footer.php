@@ -19,7 +19,7 @@
 						<td><a href="/services/etudes-encadrees">Etude Encadrée</a></td>
 					</tr>
 					<tr>
-						<td></td>
+						<td><a href="/philosophie">Philosophie</a></td>
 						<td><a href="/matieres/anglais">Anglais</a></td>
 						<td><a href="/services/stages">Stage de vacances</a></td>
 					</tr>

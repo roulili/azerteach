@@ -40,15 +40,15 @@
               L’association Azerteach propose, à Bruxelles, différentes formules de cours de français adressés pour tous les niveaux : primaire, secondaire et adultes.
             </p>
             <ul>
-              <li>Etudes encadrées</li>
-              <li>Cours particuliers</li>
+              <li><a href="#etudes-encadrees">Etudes encadrées</a></li>
+              <li><a href="#cours-particuliers">Cours particuliers</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="#etudes-encadrees">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -72,7 +72,7 @@
               La participation aux après-midis d’étude encadrée ne nécessite aucun engagement sur le long terme. Vous sélectionnez les dates selon les besoins que vous rencontrez.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/etudes-encadrees">+ d'info</a></p>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="cours-particuliers">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -116,7 +116,7 @@
               <li><span class="text-grey">Découvrir et d’adopter une <strong>méthode de travail</strong> efficace et qui permette de progresser de façon autonome.</span></li>
             </ul>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/cours-particuliers">+ d'info</a></p>
           </div>
         </div>
       </div>

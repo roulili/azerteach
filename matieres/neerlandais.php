@@ -40,16 +40,16 @@
               Azerteach asbl propose, à Bruxelles, différents types de cours de néerlandais adaptés pour tous les niveaux, de débutant à avancé.
             </p>
             <ul>
-              <li>Etudes encadrées</li>
-              <li>Cours particuliers</li>
-              <li>Tables de conversation</li>
+              <li><a href="#etudes-encadrees">Etudes encadrées</a></li>
+              <li><a href="#cours-particuliers">Cours particuliers</a></li>
+              <li><a href="#tables-de-conversation">Tables de conversation</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="etudes-encadrees">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -70,7 +70,7 @@
               La participation aux études encadrées en néerlandais est sans engagement. En fonction de vos besoins, vous choisissez les dates auxquelles vous souhaitez participer.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/etudes-encadrees">+ d'info</a></p>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="cours-particuliers">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -111,13 +111,13 @@
               <li><span class="text-grey">Découvrir et d’adopter une <strong>méthode de travail</strong> qui l’aide à appréhender une nouvelle langue et à progresser de façon autonome.</span></li>
             </ul>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/cours-particuliers">+ d'info</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="tables-de-conversation">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -133,7 +133,7 @@
               Nos tables de conversation en néerlandais ont lieu dans le cadre de nos <span class="text-blue">stages de vacances</span>. Selon vos envies, vous pouvez cumuler cette activité avec une autre choisie parmi un ensemble d’ateliers organisés en cette occasion.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/stages">+ d'info</a></p>
           </div>
         </div>
       </div>

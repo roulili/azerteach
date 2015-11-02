@@ -41,16 +41,16 @@
               L’association Azerteach organise, à Bruxelles, des cours d’anglais pour enfants, adolescents et adultes, de niveau débutant à avancé. Afin de répondre à différents types de besoin, nous avons mis en place diverses formules de cours d’anglais.
             </p>
             <ul>
-              <li>Etudes encadrées</li>
-              <li>Cours particuliers</li>
-              <li>Tables de conversation</li>
+              <li><a href="#etudes-encadrees">Etudes encadrées</a></li>
+              <li><a href="#cours-particuliers">Cours particuliers</a></li>
+              <li><a href="#tables-de-conversation">Tables de conversation</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="etudes-encadrees">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -74,7 +74,7 @@
               Ces séances d’étude encadrée se présentent comme un <strong>complément du cours d’anglais</strong> tel qu’enseigné à l’école. Elles sont l’occasion pour les élèves <span class="text-blue">d’approfondir chaque savoir et compétence</span> abordés en classe.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/etudes-encadrees">+ d'info</a></p>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="cours-particuliers">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -115,13 +115,13 @@
               <li><span class="text-grey">Découvrir et d’adopter une <strong>méthode de travail</strong> qui l’aide à appréhender une nouvelle langue et à progresser de façon autonome.</span></li>
             </ul>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/cours-particuliers">+ d'info</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="tables-de-conversation">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details">
@@ -143,7 +143,7 @@
              Toutes nos tables de conversation en anglais ont lieu pendant les vacances scolaires, dans le cadre de nos <span class="text-blue">stages de vacances</span>. Enfants, adolescents et adultes confondus peuvent s’y inscrire, à la condition d’avoir suivi des cours d’anglais au cours de la ou les années précédentes.
             </p>
             <hr>
-            <p class="more-info text-blue">+ d'info</p>
+            <p class="more-info text-blue"><a href="/services/stages">+ d'info</a></p>
           </div>
         </div>
       </div>
