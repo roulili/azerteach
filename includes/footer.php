@@ -1,39 +1,35 @@
 	<div class="section-footer">
 		 <div class="container">
-			<div class="row firstrow">
-			  <div class="col-md-8">
-				<table class="tableau">    
-					<tr>
-						<td width="5%"><a href="/index">Présentation</a></th>
-						<th width="5%">Matières</th>
-						<th width="5%">Services</th>
-					</tr>
-					<tr>
-						<td><a href="/gallerie">Gallerie</a></td>
-						<td><a href="/matieres/mathematiques">Mathématique</a></td>
-						<td><a href="/services/cours-particuliers">Cours particuliers</a></td>
-					</tr>
-					<tr>
-						<td><a href="/contact">Contact</a></td>
-						<td><a href="/matieres/sciences">Sciences</a></td>
-						<td><a href="/services/etudes-encadrees">Etude Encadrée</a></td>
-					</tr>
-					<tr>
-						<td><a href="/philosophie">Philosophie</a></td>
-						<td><a href="/matieres/anglais">Anglais</a></td>
-						<td><a href="/services/stages">Stage de vacances</a></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><a href="/matieres/neerlandais">Néerlandais</a></td>
-						<td><a href="/services/blocus-assiste">Blocus assisté</a></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><a href="/matieres/francais">Français</a></td>
-						<td><a href="/services/methode-de-travail">Méthode de travail</a></td>
-					</tr>
-				</table>
+			<div class="row">
+			  <div class="col-md-7 col-md-offset-1">
+			  	<div class="col-md-4">
+			  		<ul class="list-unstyled">
+			  			<li><a href="/index">Présentation</a></li>
+			  			<li><a href="/philosophie">Philosophie</a></li>
+			  			<li><a href="/gallerie">Gallerie</a></li>
+			  			<li><a href="/contact">Contact</a></li>
+			  		</ul>
+			  	</div>
+			  	<div class="col-md-4 left-border">
+			  		<ul class="list-unstyled">
+			  			<li><b>Matières</b></li>
+			  			<li><a href="/matieres/mathematiques">Mathématiques</a></li>
+			  			<li><a href="/matieres/sciences">Sciences</a></li>
+			  			<li><a href="/matieres/anglais">Anglais</a></li>
+			  			<li><a href="/matieres/anglais">Néerlandais</a></li>
+			  			<li><a href="/matieres/anglais">Français</a></li>
+			  		</ul>
+			  	</div>
+			  	<div class="col-md-4 left-border">
+			  		<ul class="list-unstyled">
+			  			<li><b>Services</b></li>
+			  			<li><a href="/services/etudes-encadrees">Études encadrées</a></li>
+			  			<li><a href="/services/cours-particuliers">Cours particuliers</a></li>
+			  			<li><a href="/services/blocus-assistes">Blocus assistés</a></li>
+			  			<li><a href="/services/methode-de-travail">Méthode de travail</a></li>
+			  			<li><a href="/services/stages">Stages</a></li>
+			  		</ul>
+			  	</div>
 			  </div>
 			  <div class="col-md-4">
 				<img src="../img/logo2.png" id="logo2"/>
@@ -49,4 +45,5 @@
 				</div>
 			</div>
 		</div>
+
 	

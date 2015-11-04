@@ -205,47 +205,26 @@ h3.section-caption
 	z-index:0;
 	width : 100%;
 	height : 70%;
-	background-color : rgb(33,41,44) ;
+	background-color : #21292c ;
 	position:relative;
+	padding-top:5%;
 }
 
-.firstrow
+.section-footer ul li a
 {
-	margin-bottom : 5%
+	color : rgb(90,98,101); line-height:30px;
 }
-
-.tableau
-{
-	margin-left : 20%;
-	position : absolute;
-	margin-top : 50px;
-	width = 80%;
-}
-
-th
-{
-	color : rgb(147,156,162);
-	padding : 5px 5px 5px 5px;}
-
-td
-{
-	padding : 5px 5px 5px 5px;
-}
-td  a
-{
-	color : rgb(90,98,101);
-}
-
-td  a:hover
-{
-	color : #fafafa;
-	text-decoration : none;
-}
+.section-footer ul li b
+{ color: #818a8f; line-height:30px;}
 
 #logo2{
 	margin-left: 10%;
-	margin-top : 25px;
 }
+.section-footer .col-md-4.left-border
+{border-left:1px solid #818a8f;}
+.section-footer ul li a:hover
+{color : #fafafa;
+	text-decoration : none}
 
 /*CGU*/
 .cgu
