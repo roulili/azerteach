@@ -118,7 +118,7 @@
     </div>
     <div class="section section-photo-etudes fixed-bg-6">
     </div>
-    <div class="section section-photo-etudes fixed-bg-2 visible-xs-block">
+    <div class="section section-photo-etudes fixed-bg-2">
     </div>
     <div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
     </div>

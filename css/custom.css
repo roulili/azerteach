@@ -76,17 +76,17 @@ background-color: inherit;
 
 /*backgrounds-landing*/
 .fixed-bg-2
-{background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:80%; background-attachment: fixed }
+{background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:90%; background-attachment: fixed }
 .fixed-bg-3
-{background-image: url('../img/photo-cours.jpg'); background-size: cover; height:120%; background-attachment: fixed; margin-top:-20%; }
+{background-image: url('../img/photo-cours.jpg'); background-size: cover; height:110%; background-attachment: fixed; }
 .fixed-bg-4
 {background-image: url('../img/photo-blocus.jpg'); background-size: cover; height:100%; background-attachment: fixed }
 .fixed-bg-5
 {background-image: url('../img/photo-stages.jpg'); background-size: cover; height:100%; background-attachment: fixed }
 .fixed-bg-6
-{background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:120%; background-attachment: fixed }
+{background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:100%; background-attachment: fixed }
 .bg-scroll
-{height:100%; background-color:transparent; float:left; z-index:10; width:100%; position:relative; top:50%;}
+{height:100%; background-color:transparent; float:left; z-index:10; width:100%; position:relative; top:80%;}
 .scrolling-wrapper
 {position:absolute; top:100%; z-index:10; height:100%;}
 /*First section*/
