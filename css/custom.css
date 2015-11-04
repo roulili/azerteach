@@ -73,8 +73,6 @@ background-color: inherit;
 .nav-phone li a{width:auto;}
 .nav > li > a:focus, .nav > li > a:hover
 {background-color:inherit;}
-body#index .navbar-normal
-{display:none;}
 
 /*backgrounds-landing*/
 .fixed-bg-2
@@ -446,3 +444,8 @@ body#gallerie
 {height:100px;}
 a.disabled
 {opacity:0.7; pointer-events: none;}
+
+@media screen and (min-width: 768px) {
+body#index .navbar-normal
+{display:none;}
+	}
