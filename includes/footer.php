@@ -2,7 +2,7 @@
 		 <div class="container">
 			<div class="row">
 			  <div class="col-md-7 col-md-offset-1">
-			  	<div class="col-md-4">
+			  	<div class="col-md-4 col-xs-6">
 			  		<ul class="list-unstyled">
 			  			<li><a href="/index">Présentation</a></li>
 			  			<li><a href="/philosophie">Philosophie</a></li>
@@ -10,7 +10,7 @@
 			  			<li><a href="/contact">Contact</a></li>
 			  		</ul>
 			  	</div>
-			  	<div class="col-md-4 left-border">
+			  	<div class="col-md-4 col-xs-6 left-border">
 			  		<ul class="list-unstyled">
 			  			<li><b>Matières</b></li>
 			  			<li><a href="/matieres/mathematiques">Mathématiques</a></li>
@@ -20,7 +20,7 @@
 			  			<li><a href="/matieres/anglais">Français</a></li>
 			  		</ul>
 			  	</div>
-			  	<div class="col-md-4 left-border">
+			  	<div class="col-md-4 col-xs-6 left-border">
 			  		<ul class="list-unstyled">
 			  			<li><b>Services</b></li>
 			  			<li><a href="/services/etudes-encadrees">Études encadrées</a></li>
@@ -31,7 +31,7 @@
 			  		</ul>
 			  	</div>
 			  </div>
-			  <div class="col-md-4">
+			  <div class="col-md-4 col-xs-6">
 				<img src="../img/logo2.png" id="logo2"/>
 			  </div>
 			</div>

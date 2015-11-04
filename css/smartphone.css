@@ -61,4 +61,9 @@ h2.page-title, h2.page-title small
 {width:auto;}
 .section-map .contact-map
 {width:100%;}
+
+.section-footer
+{height:auto!important;}
+.section-footer .col-md-4.left-border
+{border-left:none!important;}
 }

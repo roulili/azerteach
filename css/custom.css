@@ -218,7 +218,7 @@ h3.section-caption
 { color: #818a8f; line-height:30px;}
 
 #logo2{
-	margin-left: 10%;
+	width: 100%; margin-left:0px!important;
 }
 .section-footer .col-md-4.left-border
 {border-left:1px solid #818a8f;}
