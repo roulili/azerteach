@@ -13,9 +13,11 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    
+    <link rel="stylesheet" href="css/smartphone.css">
     <link rel="stylesheet" href="css/custom.css">
   </head>
-  <body>
+  <body id="index">
     <!-- Navbar -->
     <!--
     <nav class="navbar navbar-landing">
@@ -26,7 +28,7 @@
         </li>
       </ul>
     </nav>-->
-<nav class="navbar navbar-landing">
+<nav class="navbar navbar-landing hidden-xs">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -48,8 +50,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-    <nav id="floating-nav">
-    <ul class="nav navbar-nav floating-nav">
+  <nav id="floating-nav hidden-xs">
+    <ul class="nav navbar-nav floating-nav hidden-xs">
         <li><a href="#">présentation</a></li>
         <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -91,13 +93,18 @@
       </ul>
     </nav>
 
+  <?php //include('includes/navbar.php'); ?>
+
     <div class="section section-landing fixed-bg-1">
       <div class="container">
         <img src="img/logo.png" alt="logo" id="landing-logo"/>
         <h2 class="page-title">Encadrer ses études<br/><small>Libérer son potentiel</small></h2>
       </div>
-      <div class="more">
+      <div class="more hidden-xs">
         <img src="img/fleche.png" alt="see more" />
+      </div>
+      <div class="landing-phone visible-xs-block text-center">
+        02 344 35 43
       </div>
     </div>
 
@@ -111,13 +118,22 @@
     </div>
     <div class="section section-photo-etudes fixed-bg-6">
     </div>
+    <div class="section section-photo-etudes fixed-bg-2 visible-xs-block">
+    </div>
+    <div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
+    </div>
+    <div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
+    </div>
+    <div class="section section-photo-etudes fixed-bg-6 visible-xs-block">
+    </div>
 
     <div class="scrolling-wrapper">
     <div class="section section-welcome bg-scroll">
-      <img src="img/section-welcome.png" id="section-welcome-background" class="background-blue"/>
+      <img src="img/section-welcome.png" id="section-welcome-background" class="background-blue hidden-xs"/>
+      <img src="img/fond-welcome-xs.png" id="section-welcome-background" class="background-blue visible-xs-block"/>
       <div class="container">
         <h1>Bienvenue chez AzerTeach !</h1>
-        <div class="row"><div class="col-sm-5"></div><div class="col-sm-2 separation"></div></div>
+        <div class="row"><div class="col-sm-5 col-xs-3"></div><div class="col-sm-2 col-xs-6 separation"></div></div>
         <div class="row">
           <p class="lead">
             Nous vous proposons<br />
@@ -133,7 +149,8 @@
     </div>
 
     <div class="section section-etudes bg-scroll">
-      <img src="img/section-etudes.png" id="section-etudes-background" class="background-blue"/>
+      <img src="img/section-etudes.png" id="section-etudes-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
@@ -158,7 +175,8 @@
 	  
 	
     <div class="section section-cours bg-scroll">
-      <img src="img/section-cours.png" id="section-cours-background" class="background-blue"/>
+      <img src="img/section-cours.png" id="section-cours-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
@@ -179,7 +197,8 @@
     </div>
 	
     <div class="section section-blocus bg-scroll">
-      <img src="img/section-blocus.png" id="section-blocus-background" class="background-blue"/>
+      <img src="img/section-blocus.png" id="section-blocus-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
       <div class="container">
         <div class="row">
           <div class="col-sm-1"></div>
@@ -207,7 +226,8 @@
 	 
 	
     <div class="section section-stages bg-scroll">
-      <img src="img/section-stages2.png" id="section-stages-background" class="background-blue"/>
+      <img src="img/section-stages2.png" id="section-stages-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
@@ -242,7 +262,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center map">
-            <img src="img/contact-map.png" class="contact-map" />
+            <img src="img/contact-map.png" class="contact-map hidden-xs" />
+            <img src="img/map-xs.png" class="contact-map visible-xs-block" />
           </div>
         </div>
       </div>

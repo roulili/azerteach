@@ -73,6 +73,8 @@ background-color: inherit;
 .nav-phone li a{width:auto;}
 .nav > li > a:focus, .nav > li > a:hover
 {background-color:inherit;}
+body#index .navbar-normal
+{display:none;}
 
 /*backgrounds-landing*/
 .fixed-bg-2
