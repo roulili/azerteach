@@ -16,8 +16,8 @@
 			  			<li><a href="/matieres/mathematiques">Mathématiques</a></li>
 			  			<li><a href="/matieres/sciences">Sciences</a></li>
 			  			<li><a href="/matieres/anglais">Anglais</a></li>
-			  			<li><a href="/matieres/anglais">Néerlandais</a></li>
-			  			<li><a href="/matieres/anglais">Français</a></li>
+			  			<li><a href="/matieres/neerlandais">Néerlandais</a></li>
+			  			<li><a href="/matieres/francais">Français</a></li>
 			  		</ul>
 			  	</div>
 			  	<div class="col-md-4 col-xs-6 left-border">
