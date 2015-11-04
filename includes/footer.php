@@ -25,7 +25,7 @@
 			  			<li><b>Services</b></li>
 			  			<li><a href="/services/etudes-encadrees">Études encadrées</a></li>
 			  			<li><a href="/services/cours-particuliers">Cours particuliers</a></li>
-			  			<li><a href="/services/blocus-assistes">Blocus assistés</a></li>
+			  			<li><a href="/services/blocus-assiste">Blocus assistés</a></li>
 			  			<li><a href="/services/methode-de-travail">Méthode de travail</a></li>
 			  			<li><a href="/services/stages">Stages</a></li>
 			  		</ul>

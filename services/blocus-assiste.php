@@ -12,8 +12,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    
     <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/smartphone.css">
   </head>
   <body id="service-blocus">
     <!-- Navbar -->
@@ -62,7 +63,8 @@
     </div>
 
     <div class="section section-ribbon">
-      <img src="../img/ribbon.png" class="background-image">
+      <img src="../img/ribbon.png" class="background-image hidden-xs">
+      <img src="../img/ribbon-xs.png" class="background-image visible-xs-block">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
