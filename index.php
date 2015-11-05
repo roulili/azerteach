@@ -13,9 +13,9 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    
-    <link rel="stylesheet" href="css/smartphone.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/smartphone.css">
+    
   </head>
   <body id="index">
     <!-- Navbar -->
@@ -28,7 +28,7 @@
         </li>
       </ul>
     </nav>-->
-<nav class="navbar navbar-landing hidden-xs">
+<nav class="navbar navbar-landing hidden-xs" id="navbar-scrolltrick">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -50,7 +50,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-  <nav id="floating-nav hidden-xs">
+  <nav id="floating-nav">
     <ul class="nav navbar-nav floating-nav hidden-xs">
         <li><a href="#">présentation</a></li>
         <li class="active dropdown">
@@ -93,7 +93,7 @@
       </ul>
     </nav>
 
-  <?php //include('includes/navbar.php'); ?>
+  <?php include('includes/navbar.php'); ?>
 
     <div class="section section-landing fixed-bg-1">
       <div class="container">
@@ -118,7 +118,7 @@
     </div>
     <div class="section section-photo-etudes fixed-bg-6">
     </div>
-    <div class="section section-photo-etudes fixed-bg-2 visible-xs-block">
+    <div class="section section-photo-etudes fixed-bg-2">
     </div>
     <div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
     </div>

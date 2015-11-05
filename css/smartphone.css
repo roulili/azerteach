@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
 
 /*navbar*/
 .navbar-collapse
@@ -27,9 +27,9 @@
 
 /*landing page*/
 body#index .navbar-normal
-{display:block;}
-#landing-logo
-{height:150px; margin-top:100px;}
+{display:block!important;}
+#landing-logo, #matiere-logo
+{height:150px; margin-top:100px; width:auto;}
 h2.page-title, h2.page-title small
 {font-size:25px;}
 .landing-phone
@@ -50,7 +50,7 @@ h2.page-title, h2.page-title small
 .background-blue
 {width:100%; height:130%;}
 .section-etudes.bg-scroll
-{margin-top:40%;}
+{margin-top:0%;}
 .section-cours.bg-scroll, .section-blocus.bg-scroll, .section-stages.bg-scroll
 {margin-top:150%;}
 .bg-scroll
@@ -61,4 +61,42 @@ h2.page-title, h2.page-title small
 {width:auto;}
 .section-map .contact-map
 {width:100%;}
+
+.section-footer
+{height:auto!important;}
+.section-footer .col-md-4.left-border
+{border-left:none!important;}
+
+/*Services*/
+.section-service-top img.background-image
+{height:100%; width:auto; left:-50%;}
+.section-service-intro .matiere-details
+{padding:150px 0px 50px 0px;}
+.matiere-details img
+{width:80%;}
+.matiere-details ul li
+{color: #354144;}
+.matiere-details
+{padding:50px 20px;}
+.matiere-details-blue
+{margin-top:50%;}
+.citation
+{margin-top:80px;}
+.matiere-details.resume img
+{width:100%; height:105%;}
+.matiere-details-transparent.resume h3
+{padding-top:50px;}
+.matiere-details-transparent.resume .azerform
+{height: 115%;}
+.matiere-details-transparent.resume .azerbloc h3, .matiere-details-transparent.resume .azerbloc p
+{margin-top:0px; }
+.matiere-details-transparent.resume .azerbloc
+{margin-top:0px;}
+.btn-galerie
+{bottom:50px;}
+.matiere-details.cgu
+{padding: 50px 20px; margin-bottom:50%;}
+.section-contact-gallerie
+{background-size:cover;}
+
 }

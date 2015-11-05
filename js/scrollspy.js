@@ -16,13 +16,13 @@ $(window).on('scroll', function() {
     if(y_scroll_pos > first_section_height && !inserted)
     {
         var posleft = ( $(window).width() - $('#floating-nav ul').outerWidth() ) / 2;
-    	$('#floating-nav ul.floating-nav').insertAfter($('.navbar-landing .container .navbar-header')).css({position:'absolute', left:posleft});
+    	$('#floating-nav ul.floating-nav').insertAfter($('#navbar-scrolltrick .container .navbar-header')).css({position:'absolute', left:posleft});
     	inserted = true;
     }
 
     if( (y_scroll_pos < first_section_height) && inserted)
     {
-    	$('.navbar-landing ul.floating-nav').appendTo($('#floating-nav')).css({position:'relative', left:'auto'});
+    	$('#navbar-scrolltrick ul.floating-nav').appendTo($('#floating-nav')).css({position:'relative', left:'auto'});
     	inserted = false;
     }
 });

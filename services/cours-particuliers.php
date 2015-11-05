@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/smartphone.css">
+    
   </head>
   <body id="service-cours">
     <!-- Navbar -->
@@ -49,7 +51,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 matiere-details-blue">
             <div class="matiere-details">
-              <h3>Du sur mesuree</h3>
+              <h3>Du sur mesure</h3>
               <p>
                <span class="text-blue">-</span> Lors du premier cours, votre professeur particulier vous aide à déterminer les points de matière qui vous posent problème. Ensemble, vous établissez un <strong>plan d’étude</strong> adapté à vos besoins pour les jours ou les semaines à venir.
               </p>
@@ -60,12 +62,13 @@
     </div>
 
     <div class="section section-ribbon">
-      <img src="../img/ribbon.png" class="background-image">
+      <img src="../img/ribbon.png" class="background-image hidden-xs">
+      <img src="../img/ribbon-xs.png" class="background-image visible-xs-block">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
             « Grâce aux cours particuliers intensifs, ma fille a pu continuer sa scolarité dans la filière générale. »<br />
-            <small>- Marie</small>
+            <small>- Mère d'élève</small>
           </div>
         </div>
       </div>
