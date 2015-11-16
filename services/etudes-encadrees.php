@@ -127,12 +127,12 @@
               <h4>Horaires</h4>
               <p class="text-blue">
                 Tous les <b>mercredis et samedis</b> après-midi, de <b>14h00 à 17h00</b>
-                <br />Scéances spéciales en période pré-examens.
+                <br />Séances spéciales en période pré-examens.
                 <hr/>
               </p>
               <h4>Tarifs</h4>
               <p class="text-blue">
-                <b>45€ / scéance</b><br />(réduction possible pour les familles à faible revenus)</br>Collation comprise pour le goûter.
+                <b>45€ / séance</b><br />(réduction possible pour les familles à faible revenus)</br>Collation comprise pour le goûter.
               </p>
             </div>
           </div>

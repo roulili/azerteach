@@ -26,7 +26,7 @@
     <div class="section section-matiere-top">
       <div class="container">
         <img src="../img/logo.png" id="matiere-logo" alt="logo"/>
-        <h2 class="page-title">Anglais<br/><small>un thé avec Shakespear</small></h2>
+        <h2 class="page-title">Anglais<br/><small>to be or not to be</small></h2>
       </div>
     </div>
 

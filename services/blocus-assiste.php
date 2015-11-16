@@ -54,7 +54,7 @@
               <h3>La motivation, la base</h3>
               <p>
                 <span class="text-blue">—</span> Chaque étudiant est <b>pris en charge</b>, dès son arrivée, par un <b>coach</b>.<br />
-                celui-ci s'engage à offrir chaque jour et de manière individuelle un réel <b>soutien moral et méthodologique</b>.
+                Celui-ci s'engage à offrir chaque jour et de manière individuelle un réel <b>soutien moral et méthodologique</b>.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@
             <div class="matiere-details">
               <h3>Place à la concentration !</h3>
               <p>
-                <span class="text-blue">—</span> Les différentes salles d’études mises à disposition de nos étudiants offrent un lieu calme et peu distrayant, propice à la concentration et à l’études de matières complexes.<br /><br />
+                <span class="text-blue">—</span> Les différentes salles d’étude mises à disposition de nos étudiants offrent un lieu calme et peu distrayant, propice à la concentration et à l’étude de matières complexes.<br /><br />
                 <span class="text-blue">—</span> Chaque étudiant dispose de l‘espace dont il a besoin pour réviser ses cours individuellement ou en petits groupes si cela est jugé nécessaire.
               </p>
               <div class="to-gallerie">

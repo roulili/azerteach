@@ -24,7 +24,7 @@
       <img src="../img/services/landing-blocus.png" class="background-image" />
       <div class="container">
         <img src="../img/logo.png" id="matiere-logo" alt="logo"/>
-        <h2 class="page-title">Méthode de travail<br/><small>ordre et méthdoe</small></h2>
+        <h2 class="page-title">Méthode de travail<br/><small>ordre et méthode</small></h2>
       </div>
     </div>
 

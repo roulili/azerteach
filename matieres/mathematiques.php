@@ -54,9 +54,9 @@
           <div class="col-md-8 col-md-offset-2 matiere-details">
             <h3>Etudes encadrées</h3>
             <p>
-              Tous les <b>mercredis et samedis après-midi</b>, nous organisons des <span class="text-blue">scéances d'étude encadrée en maths</span> pour assurer, sur toute l'année, <b>un accompagnement régulier</b> des élèves qui se sentent perdus face à leur cours de maths. Répartis en <b>petits groupes</b> les étudiants sont encadrés par un <b>professeur de maths</b> expérimenté et compétent.
+              Tous les <b>mercredis et samedis après-midi</b>, nous organisons des <span class="text-blue">séances d'étude encadrée en maths</span> pour assurer, sur toute l'année, <b>un accompagnement régulier</b> des élèves qui se sentent perdus face à leur cours de maths. Répartis en <b>petits groupes</b> les étudiants sont encadrés par un <b>professeur de maths</b> expérimenté et compétent.
             </p>
-            <p>Ces scéances sont idéales pour:</p>
+            <p>Ces séances sont idéales pour:</p>
             <ul class="blue-dot-grey-text">
               <li><span class="text-grey"><b>Expliquer</b> l'ensemble de la matière</span></li>
               <li><span class="text-grey">Réaliser les <b>devoirs de maths</b></span></li>
