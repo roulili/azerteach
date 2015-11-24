@@ -16,15 +16,15 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/smartphone.css">
   </head>
-  <body id="gallerie">
+  <body id="galerie">
 
 <?php include('includes/navbar.php'); ?>
 
-  <div class="section section-gallerie">
+  <div class="section section-galerie">
     <div class="container">
       <img src="img/logo.png" class="landing-logo logo-small" alt="logo"/>
       <h2 class="page-title"><small>notre quotidien en images</small></h2>
-      <div class="gallerie-wrapper">
+      <div class="galerie-wrapper">
         <div class="row" id="pics">
           <a href="img/gallery/big/img-1.jpg" class="gallery-item">
             <img src="img/gallery/small/img-1.jpg" />
@@ -64,7 +64,7 @@
     </div>
   </div>
     
-    <div class="section section-contact section-contact-gallerie">
+    <div class="section section-contact section-contact-galerie">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center tel-contact">

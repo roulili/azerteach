@@ -350,7 +350,7 @@ body#matiere-francais
 {margin:10px -5px;}
 .background-image-galerie
 {width:100%; display:absolute;}
-.to-gallerie
+.to-galerie
 {text-align:center;}
 .btn-galerie
 {position:relative; bottom:150px; background-color:#1dbae2; color:#fafafa; border-radius:0px; padding:7px 25px;     
@@ -402,14 +402,14 @@ body#contact
 .section-contact-contact
 {margin-top:100px; padding-top:100px;}
 
-/*GALLERIE*/
-body#gallerie
-{background-image:url('../img/fond-gallerie.jpg'); background-size:cover; background-attachment:fixed;}
-.section-gallerie
+/*galerie*/
+body#galerie
+{background-image:url('../img/fond-galerie.jpg'); background-size:cover; background-attachment:fixed;}
+.section-galerie
 { text-align:center;}
-.section-contact-gallerie
+.section-contact-galerie
 {margin-bottom: -130px; margin-top:0px; padding-top:100px; background-image:url('../img/fond-tel-contact.png'); background-size:100%; background-color:transparent;}
-.gallerie-wrapper
+.galerie-wrapper
 {margin:100px 0px; font-weight:100;}
 .gallery-item
 {width:200px; height:200px; display:inline-block;overflow:hidden; margin:10px;}

@@ -103,9 +103,9 @@
                 <span class="text-blue">—</span>Pendant plusieurs heures, les participants sont introduits aux différents langages informatiques existant (html, CSS, flash, php et autres) au travers d’activités récréatives, telle que la création de sites web, de jeux informatiques et d’applications.<br />
                 <span class="text-blue">—</span>Par cette activité, nous donnons la possibilité aux enfants et adolescents d’approfondir et de maîtriser davantage les nouvelles technologies qui demeurent au cœur de leur quotidien. De la sorte, nous espérons également éveiller leur imagination et leur envie d’entreprendre, qualités que nous jugeons essentielles dans le monde actuel.
               </p>
-              <div class="to-gallerie">
+              <div class="to-galerie">
                 <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
-                <a href="/gallerie" class="btn btn-galerie">voir la galerie</a>
+                <a href="/galerie" class="btn btn-galerie">voir la galerie</a>
               </div>
             </div>
           </div>

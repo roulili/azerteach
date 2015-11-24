@@ -88,7 +88,7 @@
             <li><a href="/services/methode-de-travail">Méthode de travail</a></li>
           </ul>
         </li>
-        <li><a href="/gallerie">gallerie</a></li>
+        <li><a href="/galerie">galerie</a></li>
         <li><a href="/contact">contact</a></li>
       </ul>
     </nav>

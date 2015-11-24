@@ -100,9 +100,9 @@
                 <span class="text-blue">—</span> Les différentes salles d’étude mises à disposition de nos étudiants offrent un lieu calme et peu distrayant, propice à la concentration et à l’étude de matières complexes.<br /><br />
                 <span class="text-blue">—</span> Chaque étudiant dispose de l‘espace dont il a besoin pour réviser ses cours individuellement ou en petits groupes si cela est jugé nécessaire.
               </p>
-              <div class="to-gallerie">
+              <div class="to-galerie">
                 <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
-                <a href="/gallerie" class="btn btn-galerie">voir la galerie</a>
+                <a href="/galerie" class="btn btn-galerie">voir la galerie</a>
               </div>
             </div>
           </div>

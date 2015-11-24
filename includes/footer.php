@@ -6,7 +6,7 @@
 			  		<ul class="list-unstyled">
 			  			<li><a href="/index">Présentation</a></li>
 			  			<li><a href="/philosophie">Philosophie</a></li>
-			  			<li><a href="/gallerie">Gallerie</a></li>
+			  			<li><a href="/galerie">galerie</a></li>
 			  			<li><a href="/contact">Contact</a></li>
 			  		</ul>
 			  	</div>

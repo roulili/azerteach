@@ -149,9 +149,9 @@
               <p>
                Découvrez en images nos, locaux, nos professeurs et l'ambiance lors de nos différentes activités.
               </p>
-              <div class="to-gallerie">
+              <div class="to-galerie">
                 <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
-                <a href="/gallerie" class="btn btn-galerie">voir la galerie</a>
+                <a href="/galerie" class="btn btn-galerie">voir la galerie</a>
               </div>
             </div>
           </div>

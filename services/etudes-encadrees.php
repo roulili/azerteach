@@ -99,9 +99,9 @@
                 <span class="text-blue">—</span> Le professeur encadrant répond aux questions des membres de son groupe. Il les aide à comprendre les points de matière qui posent problème et leur fait faire des exercices. Par ailleurs, il les initie à de nouvelles méthodes de travail afin de les rendre plus autonomes.<br /><br />
                 <span class="text-blue">—</span> Nous demandons à nos professeurs d’adapter leur enseignement aux besoins et rythmes d’apprentissage des élèves. En outre, nous les invitons à demeurer attentifs à ce que chaque notion soit réellement comprise par leurs élèves, tout en faisant preuve de patience face à leurs difficultés et blocages.
               </p>
-              <div class="to-gallerie">
+              <div class="to-galerie">
                 <img src="../img/background-galerie.jpg" class="background-image-galerie"/>
-                <a href="/gallerie" class="btn btn-galerie">voir la galerie</a>
+                <a href="/galerie" class="btn btn-galerie">voir la galerie</a>
               </div>
             </div>
           </div>
