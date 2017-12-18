@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -13,8 +16,18 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    <title>Azerteach - Conditions générales de service </title>
+
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/smartphone.css">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="Azerteach" >
+    <meta property="og:type" content="website" >
+    <meta property="og:description" content="Cours particulier et études encadrées sur Bruxelles">
+    <meta property="og:url" content="http://azerteach.com/conditions-generales">
+   	<meta property="og:image" content="img/logo.png">
+
   </head>
   <body id="contact">
 
@@ -24,7 +37,7 @@
 <div class="section section-contact-top">
   <div class="container">
     <img src="img/logo.png" class="landing-logo logo-small" alt="logo"/>
-    <h2 class="page-title">Condictions générales de service</h2>
+    <h1 class="page-title">Condictions générales de service</h1>
   </div>
 </div>
     <div class="section section-contact-form">
@@ -36,7 +49,7 @@
               Les présentes conditions générales de vente règlent l’ensemble des relations entre Azerteach asbl et ses clients.<br />
               Au moment de son inscription à une activité Azerteach, le client adhère intégralement et sans réserve aux présentes conditions générales.<br />
               Nous nous réservons le droit de modifier à tout moment les présentes conditions générales de vente. Dans cette hypothèse, nous mettrons directement en ligne, sur notre site www.azerteach.com, les nouvelles conditions générales. Toute inscription effectuée après la publication des conditions mises à jour vaudra acceptation pleine et entière de celles-ci
-            </p>   
+            </p>
             <h3>2. Prestations de services</h3>
             <p>
               Azerteach asbl organise différentes activités de soutien scolaire pour les élèves du primaire, du secondaire ainsi que pour les étudiants du supérieur. En vue d’assurer la prestation de ses activités, l’association collabore régulièrement avec des professeurs extérieurs. L’ensemble des activités ont lieu au 67, avenue Winston Churchill à Uccle.
@@ -63,7 +76,7 @@
             </p>
             <p>
               Nous nous réservons le droit d’annuler une activité. Dans ce cas, nous vous proposerons de déplacer l’activité ou de vous rembourser intégralement.
-            </p> 
+            </p>
 
             <h3>5. Absences et annulations</h3>
             <p>
@@ -155,7 +168,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="section section-contact section-contact-contact">
       <div class="container">
         <div class="row">

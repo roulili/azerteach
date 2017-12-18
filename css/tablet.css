@@ -1,0 +1,324 @@
+@media screen and (min-width: 768px) {
+
+	body#index .navbar-normal
+	{display:none;}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+	body#index .navbar-normal
+	{display:none;}
+
+	#landing-logo, #matiere-logo
+	{margin-top:15%; width:auto;}
+
+	.section-welcome
+	{height: 700px;}	
+	
+	.section-cours
+	{margin-top: 300px;}
+	
+	.section-photo-stages
+	{height: 750px;}
+	
+	#matiere-maths .citation
+	{margin-top: 80px;}
+	
+	.section-service-top .background-image
+	{height: 650px; width: auto;}
+	
+	.section-ribbon img
+	{height: 300px;}
+	
+	.resume .background-image
+	{height: 800px;}
+	
+	.resume .azerbloc img
+	{height: 500px; position: absolute;}
+	
+	.resume .azerbloc .filet-points
+	{visibility: hidden;}
+}
+
+
+/*big tablet portrait*/
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation : portrait){
+	
+	.nav-phone
+	{font-size: 12px;}
+	
+	#landing-logo, #matiere-logo
+	{margin-top:45%; width:auto;}
+	
+	.section-welcome
+	{height: 600px;}
+	
+	.section-etudes
+	{height:400px; margin-top: 200px;}
+	
+	.section-cours
+	{margin-top: 45%;}
+	
+	.section-blocus
+	{margin-top: 30%;}
+	
+	.section-stages
+	{margin-top: 50%}
+	
+	.fixed-bg-2
+	{margin-top: 40%;}
+	
+	.fixed-bg-3
+	{height: 700px;}
+	
+	.fixed-bg-4
+	{height: 770px;}
+	
+	.fixed-bg-5
+	{height: 80%;}
+	
+	.section-footer
+	{height: 500px;}
+	
+	#matiere-maths .citation
+	{margin-top: 80px;}
+	
+	.section-service-top .background-image
+	{height: 800px; width: auto;}
+	
+	.section-ribbon img
+	{height: 300px;}
+	
+	.resume
+	{height: 750px;}
+	
+	.resume h3
+	{padding-top: 50px;}
+	
+	.resume .background-image
+	{height: 800px; width: 100%;}
+	
+	.resume .azerbloc img
+	{height: 500px; position: absolute;}
+	
+	.section-resume .container
+	{padding: 0 !important;  margin: 0 !important; width: 101%;}
+	
+	.resume .azerbloc .filet-points
+	{visibility: hidden;}
+	
+}
+	
+
+/*small tablet portrait*/
+@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: portrait){
+	
+	.navbar-collapse
+	{background-color: #1fbae2;width: 90%;margin-left: 5%!important; color:white!important;
+	   -moz-box-shadow:     5px 0px 15px rgba(0,0,0,0.3);
+	   -webkit-box-shadow: 5px 0px 15px rgba(0,0,0,0.3);
+	   box-shadow:          5px 0px 15px rgba(0,0,0,0.3);
+	   visibility: visible;
+	}	
+	
+	.nav a
+	{font-size: 24px;}
+	
+	#landing-logo, #matiere-logo
+	{margin-top:55%; width:auto;}
+	
+	.landing-phone
+	{visibility:visible; margin-top: 20%; font-size: 36px; font-weight: bold;}
+	
+	.navbar-collapse ul.navbar-nav
+	{width: 100%;}
+	.navbar-collapse ul.navbar-nav li
+	{border-top: 1px solid #8ad8ec; padding:5px 0px;}
+	.navbar-collapse ul.navbar-nav li:first-child
+	{border-top: none}
+	.navbar-collapse ul.dropdown-menu li
+	{border-top: none; padding:0px;}
+	.navbar-collapse ul.dropdown-menu li a
+	{color:black; text-align:center; padding-left:0px!important;}
+	.navbar-collapse ul.dropdown-menu li a:hover
+	{background-color:rgba(0,0,0,0.3)}
+	
+	.navbar-toggle .icon-bar
+	{background-color:#fafafa;}
+	.navbar-white .navbar-toggle .icon-bar
+	{background-color:#354144;}
+	
+	/*landing page*/
+	body#index .navbar-normal
+	{display:block!important;}
+	h2.page-title, h2.page-title small
+	{font-size:25px;}
+	.section-welcome.bg-scroll
+	{margin-top:-40px;}
+	.section-welcome h1
+	{font-size:36px; margin-top:150px;}
+	.section-welcome p
+	{font-size:28px;}
+	
+	h3.section-caption 
+	{font-size: 28px; margin-top: 175px; text-align: center}
+	.section-stages .section-caption
+	{margin-top: 50px;}
+	
+	.azerbloc
+	{margin-top:5%;}
+	.azerbloc h3
+	{padding-top:8%; font-size: 24px;}
+	.azerbloc p
+	{margin-top:75px; font-size: 24px;}
+	.section-cours .azerbloc
+	{margin-top:-5%;}
+	.section-etudes .azerbloc h3
+	{padding-top: 9%;}
+	.section-blocus .azerbloc h3
+	{padding-top: 10%;}
+	.section-etudes .azerbloc h3
+	{padding-top: 7%;}
+	.section-etudes .azerbloc .azerform
+	{padding-left: 4%;}
+	
+	/*.background-blue
+	{width:100%; height:130%; display: none;}
+	.section-etudes.bg-scroll
+	{margin-top:0%;}
+	.section-cours.bg-scroll, .section-blocus.bg-scroll, .section-stages.bg-scroll
+	{margin-top:150%;}
+	.bg-scroll
+	{margin-top:100%;}
+	.section-blocus .background-blue, .section-stages .background-blue
+	{height:150%;}
+	.section-map .background-image
+	{width:auto;}*/
+	.section-map .contact-map
+	{width:100%;}
+	
+	.section-footer
+	{height:auto!important;}
+	.section-footer .col-md-4.left-border
+	{border-left:none!important;}
+	
+	/*Services*/
+	.section-service-top img.background-image
+	{height:100%; width:auto; left:-50%;}
+	.section-service-intro .matiere-details
+	{padding:150px 0px 50px 0px;}
+	.matiere-details img
+	{width:80%;}
+	.matiere-details ul li
+	{color: #354144;}
+	.matiere-details
+	{padding:50px 20px;}
+	.matiere-details-blue
+	{margin-top:50%;}
+	.citation
+	{margin-top:80px;}
+	.matiere-details.resume img
+	{width:100%; height:105%;}
+	.matiere-details-transparent.resume h3
+	{padding-top:50px;}
+	.matiere-details-transparent.resume .azerform
+	{height: 115%;}
+	.matiere-details-transparent.resume .azerbloc h3, .matiere-details-transparent.resume .azerbloc p
+	{margin-top:0px; }
+	.matiere-details-transparent.resume .azerbloc
+	{margin-top:0px;}
+	.btn-galerie
+	{bottom:50px;}
+	.matiere-details.cgu
+	{padding: 50px 20px; margin-bottom:50%;}
+	.section-contact-galerie
+	{background-size:cover;}
+	
+	/* Photos */
+	.fixed-bg-2
+	{background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:110%; background-attachment: fixed; margin-top: 500px; }
+	.fixed-bg-3
+	{background-position: top left; margin-top: 40%;}
+	.fixed-bg-4
+	{height: 1000px;}
+	.fixed-bg-5
+	{margin-top: 70%;height: 1100px;}
+	
+	/*Section welcome*/
+	.section-welcome
+	{margin-top:250px; psosition: static; height: 750px;}
+	.section-etudes
+	{margin-top:500px; height: 900px; position: static;}
+	.section-cours
+	{margin-top:300px; height: 1400px; position: static;}
+	.section-blocus
+	{margin-top:-500px; height: 1200px}
+	.section-stages
+	{margin-top:450px; height: 550px; width: 107%; display: block; position: static; background:url(../img/fond-resume.png) center center; background-size: cover; margin-left: -2%;}
+	.section-map
+	{background-size: cover; background-repeat: no-repeat;}
+	.section-cours .section-caption
+	{padding-top: 75px;}
+	.section-blocus .section-caption
+	{padding-top: 100px;}
+	
+	/*infos*/
+	.infos{
+		margin-top: 450px;	
+	}
+	
+	#bloc-blocus
+	{min-width: 300px;}
+
+	#matiere-maths .citation
+	{margin-top: 80px;}
+	
+	.section
+{z-index: 0;}
+
+.imgcrop
+{width: 100%; margin-top: -160px;z-index: 10; position: absolute;}
+
+.more-info
+{text-align: center; font-family: "Minion Pro"; font-style: italic; font-size: 28px; padding: 0; margin: 15px auto 0 auto;}
+
+#matiere-maths #etudes-encadrees
+{margin-top: 60px; }
+
+#matiere-maths #cours-particuliers
+{margin-top: 275px}
+
+#matiere-maths #stages
+{margin-top: 150px;}
+
+#matiere-maths .section-ribbon
+{margin-top: 100px; height: 150px; position: absolute; z-index: 20;}
+
+#matiere-maths .section-ribbon img
+{height: 300px;}
+
+.section-service-top
+{height: 600px; position: relative; z-index: 1;}
+
+.section-service-top img.background-image
+{height: 700px;}
+
+.img-services
+{width: 100%; margin-top: -115px; position: relative; z-index: 1;}
+.img-services2
+{width: 100%; margin-top: -240px; position: relative; z-index: 1;}
+
+.matiere-details-blue
+{margin-top: -65px; margin-bottom: 60px;}
+
+.section-ribbon
+{margin-top: -150px; position: relative; z-index: 2;}
+
+.temps
+{margin-top: -75px;}
+
+.azerbloc
+{width: 70%; margin: auto;}
+}

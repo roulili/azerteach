@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/magnific-popup.min.css">
     <!-- Bootstrap CSS -->
@@ -12,6 +12,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>Azerteach - Cours particulier et études encadrées sur Bruxelles en images</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/smartphone.css">
@@ -24,37 +29,38 @@
     <div class="container">
       <img src="img/logo.png" class="landing-logo logo-small" alt="logo"/>
       <h2 class="page-title"><small>notre quotidien en images</small></h2>
+      <h1 class="page-title sous-titre"><small>Cours particulier et études encadrées sur Bruxelles en images</small></h1>
       <div class="galerie-wrapper">
         <div class="row" id="pics">
           <a href="img/gallery/big/img-1.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-1.jpg" />
+            <img src="img/gallery/small/img-1.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-2.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-2.jpg" />
+            <img src="img/gallery/small/img-2.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-3.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-3.jpg" />
+            <img src="img/gallery/small/img-3.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-4.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-4.jpg" />
+            <img src="img/gallery/small/img-4.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-5.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-5.jpg" />
+            <img src="img/gallery/small/img-5.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-6.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-6.jpg" />
+            <img src="img/gallery/small/img-6.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-7.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-7.jpg" />
+            <img src="img/gallery/small/img-7.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-8.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-8.jpg" />
+            <img src="img/gallery/small/img-8.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-9.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-9.jpg" />
+            <img src="img/gallery/small/img-9.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
           <a href="img/gallery/big/img-10.jpg" class="gallery-item">
-            <img src="img/gallery/small/img-10.jpg" />
+            <img src="img/gallery/small/img-10.jpg" alt="Azerteach cours particulier et études encadrées à Bruxelles en images"/>
           </a>
         </div>
         <div class="row">
@@ -63,7 +69,7 @@
       </div>
     </div>
   </div>
-    
+
     <div class="section section-contact section-contact-galerie">
       <div class="container">
         <div class="row">
@@ -76,7 +82,7 @@
     </div>
 
     <div class="section section-map">
-      <img src="img/pointe-haute.png" class="background-image">
+      <!--<img src="img/pointe-haute.png" class="background-image">-->
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center map">
@@ -102,7 +108,7 @@
         gallery:{
           enabled:true
         }
-      });      
+      });
     }
     initPopup();
 
@@ -119,12 +125,12 @@
         if(imageExists(url))
         {
           var img ='<a href="img/gallery/big/img-'+i+'.jpg" class="gallery-item" style="display:none"><img src="img/gallery/small/img-'+i+'.jpg" /></a>';
-          $('#pics').append(img); 
+          $('#pics').append(img);
         }
         else
         {
           $(this).addClass('disabled').attr('title', 'Il n\'y a pas d\'autres images pour l\'instant!')
-        } 
+        }
       }
       $('#pics a').slideDown('slow');
       initPopup();

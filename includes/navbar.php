@@ -40,7 +40,16 @@ setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/philosophie">philosophie</a></li>
+        <li class="active dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Présentation
+            <span class="caret"></span>
+          </a>
+           <ul class="dropdown-menu">
+            <li><a href="/philosophie">Philosophie</a></li>
+            <li><a href="/recrutement">Recrutement</a></li>
+          </ul>
+        </li>
         <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             matieres
@@ -48,11 +57,11 @@ setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent
             <span class="caret"></span>
           </a>
            <ul class="dropdown-menu">
-            <li><a href="/matieres/mathematiques">Maths</a></li>
-            <li><a href="/matieres/sciences">Sciences</a></li>
-            <li><a href="/matieres/francais">Français</a></li>
-            <li><a href="/matieres/neerlandais">Néerlandais</a></li>
-            <li><a href="/matieres/anglais">Anglais</a></li>
+            <li><a href="/mathematiques">Maths</a></li>
+            <li><a href="/sciences">Sciences</a></li>
+            <li><a href="/francais">Français</a></li>
+            <li><a href="/neerlandais">Néerlandais</a></li>
+            <li><a href="/anglais">Anglais</a></li>
           </ul>
         </li>
         <li class="active dropdown">
@@ -62,10 +71,17 @@ setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent
             <span class="caret"></span>
           </a>
            <ul class="dropdown-menu">
-            <li><a href="/services/cours-particuliers">Cours particuliers</a></li>
-            <li><a href="/services/etudes-encadrees">Etudes encadrées</a></li>
+            <li><a href="/cours-particuliers">Cours particuliers</a></li>
+            <li><a href="/etudes-encadrees">Etudes encadrées</a></li>
             <li><a href="/services/blocus-assiste">Blocus assistés</a></li>
             <li><a href="/services/stages">Stages</a></li>
+            <li><a href="/services/primaires">Primaires</a></li>
+            <li><a href="/services/en-ligne">En-ligne</a></li>
+            <li><a href="/services/decrochage-scolaire">Décrochage scolaire</a></li>
+            <li><a href="/jury-central">Jury central</a></li>
+            <li><a href="/services/gestion">Gestion de base</a></li>
+            <li><a href="/services/tables-conversation">Tables de conversation</a></li>
+            <li><a href="/services/CE1D">CE1D</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -81,7 +97,7 @@ setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent
   
       <ul class="nav navbar-nav navbar-right nav-phone">
         <li class="nav-item">
-          <a class="nav-link" href="#">02 344 35 43</a>
+          <a class="nav-link" href="#">02 345 48 37</a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

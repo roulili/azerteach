@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<title>Azerteach - Notre mission, favoriser la réussite scolaire des élèves</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -14,6 +18,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/smartphone.css">
     <link rel="stylesheet" href="css/custom.css">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="Azerteach - Notre philosophie">
+    <meta property="og:type" content="website" >
+    <meta property="og:description" content="Cours particulier et études encadrées sur Bruxelles">
+    <meta property="og:url" content="http://www.azerteach.com/philosophie">
+   	<meta property="og:image" content="./img/logo.png">
+
   </head>
   <body id="philo">
 
@@ -26,6 +38,20 @@
     <h2 class="page-title">Pourquoi Azerteach ?<br /><small>Notre philosophie</small></h2>
   </div>
 </div>
+
+<div class="section section-ribbon" >
+  <img src="./img/ribbon.png" class="background-image hidden-xs">
+  <img src="./img/section-welcome.png" class="background-image visible-xs-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center citation">
+        « C’est le rôle essentiel du professeur d’éveiller la joie de travailler et de connaître.»<br />
+        <small>- A. Einstein</small>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div class="section section-contact-form">
       <div class="container">
         <div class="row">
@@ -41,9 +67,9 @@
         </div>
       </div>
     </div>
-    <div class="section section-ribbon">
-      <img src="../img/ribbon.png" class="background-image hidden-xs">
-      <img src="../img/ribbon-xs.png" class="background-image visible-xs-block">
+    <div class="section section-ribbon ribbon2">
+      <img src="./img/ribbon.png" class="background-image hidden-xs">
+      <img src="./img/section-welcome.png" class="background-image visible-xs-block">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center citation">
@@ -56,8 +82,8 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2 matiere-details cgu">
-            <h3>Notre mission : favoriser la réussite scolaire des élèves…</h3>
+          <div class="col-md-8 col-md-offset-2 matiere-details cgu mission">
+            <h1 class="cgu h3">Notre mission : favoriser la réussite scolaire des élèves…</h1>
             <p>
               Ces données statistiques sont impressionnantes et reflètent les difficultés que rencontre notre enseignement traditionnel à assurer la réussite de tous ses élèves scolarisés. Les raisons qui expliquent cette situation peu glorieuse sont multiples et dépendent de très nombreux facteurs : comme par exemple,  l’absence de travail régulier de la part de l’élève, le manque de pédagogie de certains professeurs, un soutien scolaire limité de la part des parents et cetera.
             </p>
@@ -80,19 +106,8 @@
         </div>
       </div>
     </div>
-    <div class="section section-ribbon">
-      <img src="../img/ribbon.png" class="background-image hidden-xs">
-      <img src="../img/ribbon-xs.png" class="background-image visible-xs-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center citation">
-            « C’est le rôle essentiel du professeur d’éveiller la joie de travailler et de connaître.»<br />
-            <small>- A. Einstein</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+
+
     <div class="section section-contact section-contact-contact">
       <div class="container">
         <div class="row">
@@ -105,7 +120,7 @@
     </div>
 
     <div class="section section-map">
-      <img src="img/pointe-haute.png" class="background-image">
+      <!--<img src="img/pointe-haute.png" class="background-image">-->
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center map">

@@ -86,7 +86,7 @@ background-color: inherit;
 .fixed-bg-6
 {background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:100%; background-attachment: fixed }
 .bg-scroll
-{height:100%; background-color:transparent; float:left; z-index:10; width:100%; position:relative; top:80%;}
+{height:100%; background-color:transparent; float:left; z-index:10; width:100%; position:relative; top:10%;}
 .scrolling-wrapper
 {position:absolute; top:100%; z-index:10; height:100%;}
 /*First section*/
@@ -244,8 +244,14 @@ h3.section-caption
 }
 
 /*----------------------------------------------------------------------Page Blocus--------------------------------------------------------------------------------------*/
+body#service-decrochage
+{background-image: url('../img/services/decrochage.jpg'); background-attachment:fixed; background-size: cover}
+body#service-primaires
+{background-image: url('../img/services/primaires.jpg'); background-attachment:fixed; background-size: cover}
 body#service-blocus
 {background-image: url('../img/services/blocus.jpg'); background-attachment:fixed; background-size: cover}
+body#service-enligne
+{background-image: url('../img/services/enligne.jpg'); background-attachment:fixed; background-size: cover}
 body#service-etudes
 {background-image: url('../img/services/etudes.jpg'); background-attachment:fixed; background-size: cover}
 body#service-cours

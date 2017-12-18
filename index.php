@@ -3,9 +3,14 @@
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+    
+    <!-- Title -->
+    <title>Azerteach</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Google fonts -->
@@ -15,6 +20,14 @@
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/smartphone.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet.css">
+    
+    <!--Open Graphs-->
+    <meta property="og:title" content="Azerteach" >
+    <meta property="og:type" content="website" >
+    <meta property="og:description" content="cours particulier et études encadrées sur Bruxelles">
+    <meta property="og:url" content="azerteach.com">
+   	<meta property="og:image" content="img/logo.png">
     
   </head>
   <body id="index">
@@ -43,7 +56,7 @@
   
       <ul class="nav navbar-nav navbar-right nav-phone">
         <li class="nav-item">
-          <a class="nav-link" href="#">02 344 35 43</a>
+          <a class="nav-link" href="#">02 345 48 37</a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -52,7 +65,16 @@
 
   <nav id="floating-nav">
     <ul class="nav navbar-nav floating-nav hidden-xs">
-        <li><a href="#">présentation</a></li>
+        <li class="active dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Présentation
+            <span class="caret"></span>
+          </a>
+           <ul class="dropdown-menu">
+            <li><a href="/philosophie">Philosophie</a></li>
+            <li><a href="/recrutement">Recrutement</a></li>
+          </ul>
+        </li>
         <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             matieres
@@ -60,11 +82,11 @@
             <span class="caret"></span>
           </a>
            <ul class="dropdown-menu">
-            <li><a href="/matieres/mathematiques">Mathématiques</a></li>
-            <li><a href="/matieres/sciences">Sciences</a></li>
-            <li><a href="/matieres/francais">Français</a></li>
-            <li><a href="/matieres/anglais">Anglais</a></li>
-            <li><a href="/matieres/neerlandais">Néerlandais</a></li>
+            <li><a href="/mathematiques">Mathématiques</a></li>
+            <li><a href="/sciences">Sciences</a></li>
+            <li><a href="/francais">Français</a></li>
+            <li><a href="/anglais">Anglais</a></li>
+            <li><a href="/neerlandais">Néerlandais</a></li>
           </ul>
         </li>
         <li class="active dropdown">
@@ -74,11 +96,18 @@
             <span class="caret"></span>
           </a>
            <ul class="dropdown-menu">
-            <li><a href="/services/cours-particuliers">Cours particuliers</a></li>
-            <li><a href="/services/etudes-encadrees">Etudes encadrées</a></li>
+            <li><a href="/cours-particuliers">Cours particuliers</a></li>
+            <li><a href="/etudes-encadrees">Etudes encadrées</a></li>
             <li><a href="/services/stages">Stages de vacances</a></li>
             <li><a href="/services/blocus-assiste">Blocus assistés</a></li>
             <li><a href="/services/methode-de-travail">Méthode de travail</a></li>
+            <li><a href="/services/primaires">Primaires</a></li>
+            <li><a href="/services/en-ligne">En-ligne</a></li>
+            <li><a href="/services/decrochage-scolaire">Décrochage scolaire</a></li>
+            <li><a href="/jury-central">Jury central</a></li>
+            <li><a href="/services/gestion">Gestion de base</a></li>
+            <li><a href="/services/tables-conversation">Tables de conversation</a></li>
+            <li><a href="/services/CE1D">CE1D</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -104,7 +133,7 @@
         <img src="img/fleche.png" alt="see more" />
       </div>
       <div class="landing-phone visible-xs-block text-center">
-        02 344 35 43
+        02 345 48 37
       </div>
     </div>
 
@@ -118,19 +147,19 @@
     </div>
     <div class="section section-photo-etudes fixed-bg-6">
     </div>
-    <div class="section section-photo-etudes fixed-bg-2">
-    </div>
-    <div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
+    <!--<div class="section section-photo-etudes fixed-bg-2">
+    </div>-->
+    <!--<div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
     </div>
     <div class="section section-photo-etudes fixed-bg-4 visible-xs-block">
     </div>
     <div class="section section-photo-etudes fixed-bg-6 visible-xs-block">
-    </div>
+    </div>-->
 
     <div class="scrolling-wrapper">
     <div class="section section-welcome bg-scroll">
-      <img src="img/section-welcome.png" id="section-welcome-background" class="background-blue hidden-xs"/>
-      <img src="img/fond-welcome-xs.png" id="section-welcome-background" class="background-blue visible-xs-block"/>
+      <!--<img src="img/section-welcome.png" id="section-welcome-background" class="background-blue hidden-xs"/>
+      <img src="img/fond-welcome-xs.png" id="section-welcome-background" class="background-blue visible-xs-block"/>-->
       <div class="container">
         <h1>Bienvenue chez AzerTeach !</h1>
         <div class="row"><div class="col-sm-5 col-xs-3"></div><div class="col-sm-2 col-xs-6 separation"></div></div>
@@ -149,11 +178,14 @@
     </div>
 
     <div class="section section-etudes bg-scroll">
-      <img src="img/section-etudes.png" id="section-etudes-background" class="background-blue hidden-xs"/>
-      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
+      <!--<img src="img/section-etudes.png" id="section-etudes-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>-->
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
+          <div class="col-sm-4 visible-xs-block">
+            <h3 class="section-caption">Un suivi régulier<br />tout au long de l'année</h3>
+          </div>
           <div class="col-sm-4 text-center azerbloc">
             <img src="img/bloc-etudes.png" class="azerform" id="bloc-etudes"/>
             <h3 class="text-blue">études encadrées</h3>
@@ -165,7 +197,7 @@
               <span class="text-blue">professeur</span> expérimenté.
             </p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 hidden-xs">
             <h3 class="section-caption">Un suivi régulier<br />tout au long de l'année</h3>
           </div>
         </div>
@@ -175,8 +207,8 @@
 	  
 	
     <div class="section section-cours bg-scroll">
-      <img src="img/section-cours.png" id="section-cours-background" class="background-blue hidden-xs"/>
-      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
+      <!--<img src="img/section-cours.png" id="section-cours-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>-->
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
@@ -192,16 +224,20 @@
               tous les <span class="text-blue">points difficiles</span> <br />
             </p>
           </div>
+          
         </div>
       </div>
     </div>
 	
     <div class="section section-blocus bg-scroll">
-      <img src="img/section-blocus.png" id="section-blocus-background" class="background-blue hidden-xs"/>
-      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
+      <!--<img src="img/section-blocus.png" id="section-blocus-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>-->
       <div class="container">
         <div class="row">
           <div class="col-sm-1"></div>
+          <div class="col-sm-4 visible-xs-block">
+            <h3 class="section-caption">Optimisez vos chances<br />de réussite !</h3>
+          </div>
           <div class="col-sm-4 text-center azerbloc">
             <img src="img/bloc-blocus.png" class="azerform" id="bloc-blocus"/>
             <h3 class="text-blue">Blocus assistés</h3>
@@ -217,7 +253,7 @@
           </div>
           <div class="col-sm-1"></div>
           <div class="col-sm-4">
-            <h3 class="section-caption">Optimisez vos chances<br />de réussite !</h3>
+            <h3 class="section-caption hidden-xs">Optimisez vos chances<br />de réussite !</h3>
           </div>
         </div>
       </div>
@@ -226,11 +262,14 @@
 	 
 	
     <div class="section section-stages bg-scroll">
-      <img src="img/section-stages2.png" id="section-stages-background" class="background-blue hidden-xs"/>
-      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>
+      <!--<img src="img/section-stages2.png" id="section-stages-background" class="background-blue hidden-xs"/>
+      <img src="img/section-etudes-xs.png" id="section-etudes-background" class="background-blue visible-xs-block"/>-->
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
+          <div class="col-sm-4 visible-xs-block">
+            <h3 class="section-caption">Continuez à apprendre<br />en vous amusant !</h3>
+          </div>
           <div class="col-sm-4 text-center azerbloc" id="bloc-stages">
             <img src="img/bloc-stages.png" class="azerform" />
             <h3 class="text-blue">stages de vacances</h3>
@@ -243,7 +282,7 @@
               et la création de sites web.
             </p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 hidden-xs">
             <h3 class="section-caption">Continuez à apprendre<br />en vous amusant !</h3>
           </div>
         </div>
@@ -254,11 +293,11 @@
 
   <div class="infos">
     <p class="text-blue">Plus d'informations et réservation des cours :</p>
-    <p class="text-blue num">02 344 35 43</p>
+    <p class="text-blue num">02 345 48 37</p>
   </div>
 
     <div class="section section-map">
-      <img src="img/pointe-haute.png" class="background-image">
+      <!--<img src="img/pointe-haute.png" class="background-image">-->
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center map">

@@ -1,4 +1,4 @@
-<?php 
+<?php
 if(isset($_POST['action']) && $_POST['action']=='contact')
 {
   $to = "hello@azerteach.com"; // this is your Email address
@@ -22,12 +22,17 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!--Title-->
+    <title>Azerteach - Nous contacter</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -38,6 +43,13 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/smartphone.css">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="Azerteach - Nous contacter">
+    <meta property="og:type" content="website" >
+    <meta property="og:description" content="Cours particulier et études encadrées sur Bruxelles">
+    <meta property="og:url" content="http://www.azerteach.com/contact">
+   	<meta property="og:image" content="img/logo.png">
   </head>
   <body id="contact">
 
@@ -47,7 +59,7 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
   <div class="section section-contact-top">
     <div class="container">
       <img src="img/logo.png" class="landing-logo logo-small" alt="logo"/>
-      <h2 class="page-title">Contactez-nous !</h2>
+      <h1 class="page-title cgu">Contactez-nous !</h1>
     </div>
   </div>
 <?php if(!isset($messageInfo)){ ?>
@@ -61,12 +73,12 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
             <p class="text-center">
               du <span class="text-blue">lundi au vendredi</span> de <span class="text-blue">14h à 19h30</span>.
             </p>
-            <p>Pour toute demande d'informations, de réservations ou de prises de rendez-vous, nous vous invitons à compléter le <b>formulaire</b> ci-dessous, ou à nous contacter par téléphone au <b>02 345 48 37</b> durant nos heures de permanence.
+            <p>Pour toute demande d'informations, de réservations ou de prises de rendez-vous, nous vous invitons à compléter le <strong>formulaire</strong> ci-dessous, ou à nous contacter par téléphone au <strong>02 345 48 37</strong> durant nos heures de permanence.
             </p>
             <div class="row">
               <div class="col-sm-6">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" class="form-control" id="email"/>
+                <input type="email" name="email" class="form-control" id="email" required/>
               </div>
               <div class="col-sm-6">
                 <label for="name">Nom</label>
@@ -105,12 +117,12 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
                 <button class="btn btn-azt">Envoyer</button>
               </div>
             </div>
-          </form>          
+          </form>
           </div>
         </div>
       </div>
     </div>
-  <?php } 
+  <?php }
   elseif($messageInfo['code']=='success')
     {
       ?>
@@ -130,7 +142,46 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
 <?php
     }
     ?>
-    
+
+     <div class="section quotidien">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 matiere-details-blue">
+            <div class="matiere-details">
+              <h3>Mais où se situe Azerteach?</h3>
+              <p>
+              Avenue Winston Churchill 67, 1180 Uccle.
+              </p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sfr!2sbe!4v1457007930868!6m8!1m7!1sM4UHIWLBcCtlbQKaNJplFw!2m2!1d50.81211303188493!2d4.352348887193548!3f200.28531933733302!4f3.7047464987667524!5f0.7820865974627469" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <p>
+              Nous serons ravis de vous acceuilir pour vous présenter nos cours particuliers, les études encadrées et nos locaux dédiés entièrement à une étude éfficace. Trouvez-nous sur <a href="https://www.google.be/maps/place/Azerteach/@50.812113,4.3523489,17z/data=!4m2!3m1!1s0x47c3c456057e8cb5:0x78baea270e81a3b0?hl=fr" target="_blank">Google Maps</a> et <a href="https://www.facebook.com/azerteach" target="_blank">Facebook</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section quotidien">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 matiere-details-blue">
+            <div class="matiere-details">
+              <h3>Azerteach au quotidien</h3>
+              <p>
+               Découvrez en images nos, locaux, nos professeurs et l'ambiance lors de nos différentes activités.
+              </p>
+              <div class="to-galerie">
+                <img src="./img/background-galerie.jpg" class="background-image-galerie"/>
+                <a href="/galerie" class="btn btn-galerie">voir la galerie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="section section-contact section-contact-contact">
       <div class="container">
         <div class="row">
@@ -143,7 +194,7 @@ if(isset($_POST['action']) && $_POST['action']=='contact')
     </div>
 
     <div class="section section-map">
-      <img src="img/pointe-haute.png" class="background-image">
+      <!--<img src="img/pointe-haute.png" class="background-image">-->
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center map">

@@ -1,4 +1,5 @@
-@media screen and (max-width: 768px) {
+/*portrait*/
+@media screen and (orientation : portrait) and (max-width: 480px) {
 
 /*navbar*/
 .navbar-collapse
@@ -29,26 +30,38 @@
 body#index .navbar-normal
 {display:block!important;}
 #landing-logo, #matiere-logo
-{height:150px; margin-top:100px; width:auto;}
+{height:150px; margin-top:175px; width:auto;}
 h2.page-title, h2.page-title small
 {font-size:25px;}
 .landing-phone
 {font-weight:bold;font-size:25px; position:absolute; bottom:10%; width:100%;}
 .section-welcome.bg-scroll
-{margin-top:-10px;}
+{margin-top:-40px;}
 .section-welcome h1
 {font-size:22px; margin-top:150px;}
 .section-welcome p
 {font-size:22px;}
 
+h3.section-caption 
+{font-size: 18px; margin-top: 175px; text-align: center}
+.section-stages .section-caption
+{margin-top: 50px;}
+
 .azerbloc
-{margin-top:30%;}
+{margin-top:5%;}
 .azerbloc h3
-{padding-top:30px;}
+{padding-top:8%;}
 .azerbloc p
 {margin-top:45px;}
-.background-blue
-{width:100%; height:130%;}
+.section-cours .azerbloc
+{margin-top:-5%;}
+.section-etudes .azerbloc h3
+{padding-top: 10%;}
+.section-etudes .azerbloc .azerform
+{padding-left: 4%;}
+
+/*.background-blue
+{width:100%; height:130%; display: none;}
 .section-etudes.bg-scroll
 {margin-top:0%;}
 .section-cours.bg-scroll, .section-blocus.bg-scroll, .section-stages.bg-scroll
@@ -58,7 +71,7 @@ h2.page-title, h2.page-title small
 .section-blocus .background-blue, .section-stages .background-blue
 {height:150%;}
 .section-map .background-image
-{width:auto;}
+{width:auto;}*/
 .section-map .contact-map
 {width:100%;}
 
@@ -95,8 +108,399 @@ h2.page-title, h2.page-title small
 .btn-galerie
 {bottom:50px;}
 .matiere-details.cgu
+{padding: 85px 20px; margin-bottom:100px;}
+#philo .section-contact-top
+{height: 500px;}
+#philo .section-contact-form
+{height: 983px; margin-bottom: 50px;}
+#philo .section-ribbon
+{margin-top: 800px;}
+#philo .section-ribbon .citation
+{margin-top: 75px;}
+#philo .ribbon2
+{padding-top: 8%;}
+.section-contact-galerie
+{background-size:cover;}
+.img-services
+{width: 100%; margin-top: -160px; position: relative; z-index: 2;}
+.matiere-details.resume img
+{width: 100%; padding: -50px;}
+.section-resume .container
+{padding: 0 !important;}
+
+.matiere-details-transparent.resume .azerbloc
+{width: 80%; margin: auto;}
+
+/* Photos */
+.fixed-bg-2
+{background-size: cover; height:700px; background-attachment: fixed; margin-top: 500px; background-position:500px center;}
+.fixed-bg-3
+{background-position: top left;}
+.fixed-bg-4
+{margin-top: 300px; background-position: 700px center;}
+.fixed-bg-5
+{height: 800px;}
+
+/*Section welcome*/
+.section-welcome
+{margin-top:100px; psosition: static; height: 650px;}
+.section-etudes
+{margin-top:300px; height: 700px; position: static;}
+.section-cours
+{margin-top:225px; height: 900px; position: static;}
+.section-blocus
+{margin-top:-100px; height: 800px}
+.section-stages
+{margin-top:300px; height: 550px; width: 100%; display: block; position: static; background:url(../img/fond-resume.png) center center; background-size: cover;}
+.section-map
+{background-size: cover; background-repeat: no-repeat;}
+
+/*infos*/
+.infos{
+	margin-top: 450px;	
+}
+
+#bloc-blocus
+{min-width: 300px;}
+
+.section-footer
+{height: 600px}
+
+.section
+{z-index: 0;}
+
+.imgcrop
+{width: 100%; margin-top: -135px;z-index: 10; position: absolute;}
+
+.more-info
+{text-align: center; font-family: "Minion Pro"; font-style: italic; font-size: 28px; padding: 0; margin: 15px auto 0 auto;}
+
+#etudes-encadrees
+{margin-top: -35px; }
+
+#cours-particuliers
+{margin-top: 275px}
+
+.section-ribbon
+{margin-top: 100px; height: 150px; position: absolute; z-index: 20;}
+
+.section-ribbon img
+{height: 300px;}
+
+#matiere-sciences
+{background-position: center center;}
+
+#matiere-anglais
+{background-position: center right;}
+
+#matiere-francais #etudes-encadrees
+{margin-top: -50px;}
+
+.section-service-top
+{height: 650px; background: none; position: relative; z-index: 2 !important;}
+
+
+.section-service-top img
+{height: 600px;}
+
+#service-etudes .section-service-intro
+{height: 575px;}
+
+.section-service-intro
+{height: 450px; margin-top: -100px;}
+
+.img-services
+{width: 100%; margin-top: -130px; position: absolute; z-index: 1;}
+
+.img-services2
+{width: 100%; margin-top: -250px; position: absolute; z-index: 1;}
+
+.matiere-details-blue
+{margin-top: 80px;}
+
+#service-blocus .section-ribbon
+{margin-top: 100px;}
+
+.temps
+{margin-top: 270px;}
+
+.concentration
+{margin-top: -15px;}
+
+.matiere-details.resume img
+{width: 100%}
+
+#service-methodo .section-service-intro
+{margin-top: -200px; height: 550px;}
+
+#service-methodo .img-services2
+{margin-top: -145px;}
+
+#service-methodo .matiere-details
+{margin-top: 50px;}
+
+.section-contact-top
+{background-size: 100% 100%; background-position: center center; padding: 0px; height: 600px; position: relative; z-index: 2;}
+
+.section-contact-form
+{margin-top: -50px;}
+
+}
+
+/********************LANDSCAPE********************/
+
+@media screen and (max-width: 768px) and (orientation : landscape) {
+
+/*navbar*/
+.navbar-collapse
+{background-color: #1fbae2;width: 90%;margin-left: 5%!important; color:white!important;
+   -moz-box-shadow:     5px 0px 15px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 5px 0px 15px rgba(0,0,0,0.3);
+   box-shadow:          5px 0px 15px rgba(0,0,0,0.3);
+}
+.navbar-collapse ul.navbar-nav
+{width: 100%;}
+.navbar-collapse ul.navbar-nav li
+{border-top: 1px solid #8ad8ec; padding:5px 0px;}
+.navbar-collapse ul.navbar-nav li:first-child
+{border-top: none}
+.navbar-collapse ul.dropdown-menu li
+{border-top: none; padding:0px;}
+.navbar-collapse ul.dropdown-menu li a
+{color:black; text-align:center; padding-left:0px!important;}
+.navbar-collapse ul.dropdown-menu li a:hover
+{background-color:rgba(0,0,0,0.3)}
+
+.navbar-toggle .icon-bar
+{background-color:#fafafa;}
+.navbar-white .navbar-toggle .icon-bar
+{background-color:#354144;}
+
+/*landing page*/
+body#index .navbar-normal
+{display:block!important;}
+#landing-logo, #matiere-logo
+{height:100px; margin-top:10%; width:auto;}
+h2.page-title, h2.page-title small
+{font-size:25px;}
+.landing-phone
+{font-weight:bold;font-size:25px; position:absolute; bottom:15%; width:100%;}
+.section-welcome.bg-scroll
+{margin-top:-40px;}
+.section-welcome h1
+{font-size:22px; margin-top:150px;}
+.section-welcome p
+{font-size:22px;}
+
+h3.section-caption 
+{font-size: 18px; margin-top: 175px; text-align: center}
+.section-stages .section-caption
+{margin-top: 50px;}
+
+.azerbloc
+{margin-top:5%;}
+.azerbloc h3
+{padding-top:5.5%;}
+.azerbloc .azerform
+{width: 300px}
+.azerbloc p
+{margin-top:45px;}
+.section-cours .azerbloc
+{margin-top:-5%;}
+.section-etudes .azerbloc h3
+{padding-top: 6%;}
+.section-etudes .azerbloc .azerform
+{padding-left: 2%;}
+
+
+/*.background-blue
+{width:100%; height:130%; display: none;}
+.section-etudes.bg-scroll
+{margin-top:0%;}
+.section-cours.bg-scroll, .section-blocus.bg-scroll, .section-stages.bg-scroll
+{margin-top:150%;}
+.bg-scroll
+{margin-top:100%;}
+.section-blocus .background-blue, .section-stages .background-blue
+{height:150%;}
+.section-map .background-image
+{width:auto;}*/
+.section-map .contact-map
+{width:100%;}
+
+.section-footer
+{height:auto!important;}
+.section-footer .col-md-4.left-border
+{border-left:none!important;}
+
+/*Services*/
+.section-service-top
+{height: 500px; position: relative; z-index: 2 !important;}
+.section-service-top img.background-image
+{width: 102%; height:auto;}
+.img-services
+{width: 100%; margin-top: -160px; position: relative; z-index: 2;}
+.img-services2
+{width: 100%; margin-top: -250px; position: relative; z-index: 2;}
+.section-service-intro
+{margin-top: -250px;height: 425px;}
+.section-service-intro .matiere-details
+{padding:150px 0px 50px 0px;}
+.matiere-details img
+{width:80%;}
+.matiere-details ul li
+{color: #354144;}
+.matiere-details
+{padding:50px 20px;}
+.matiere-details-blue
+{margin-top: -65px;}
+.citation
+{margin-top:80px;}
+.matiere-details.resume img
+{width:120%; height:105%;}
+.matiere-details-transparent.resume h3
+{padding-top:50px;}
+.matiere-details-transparent.resume .azerform
+{height: 115%;}
+.matiere-details-transparent.resume .azerbloc h3, .matiere-details-transparent.resume .azerbloc p
+{margin-top:0px; }
+.matiere-details-transparent.resume .azerbloc
+{margin-top:0px;}
+.btn-galerie
+{bottom:50px;}
+.matiere-details.cgu
 {padding: 50px 20px; margin-bottom:50%;}
 .section-contact-galerie
 {background-size:cover;}
 
+.temps
+{margin-top: 250px;}
+
+#service-cours .section-ribbon
+{margin-top: -25px;}
+#service-cours .section-ribbon img
+{height: 275px;}
+#service-blocus .section-ribbon
+{margin-top: -25px;}
+#service-blocus .section-ribbon img
+{height: 275px;}
+#service-etudes .section-ribbon
+{margin-top: -25px;}
+#service-etudes .section-ribbon img
+{height: 275px;}
+#service-stages .section-ribbon
+{margin-top: -25px;}
+#service-stages .section-ribbon img
+{height: 275px;}
+
+.section-resume .container
+{padding: 0 !important;}
+
+.matiere-details-transparent.resume .azerbloc
+{width: 80%; margin: auto;}
+
+.matiere-details.resume img
+{width: 100%; padding: -50px;}
+
+#service-etudes .img-services
+{margin-top: -160px;}
+
+/* Photos */
+.fixed-bg-2
+{background-image: url('../img/photo-etudes.jpg'); background-size: cover; height:110%; background-attachment: fixed; margin-top: 500px; }
+.fixed-bg-3
+{background-position: top left;}
+.fixed-bg-4{
+	margin-top: 275px;	
 }
+.fixed-bg-5
+{height: 400px;}
+
+/*Section welcome*/
+.section-welcome
+{margin-top:10%; position: static; height: 650px;}
+.section-etudes
+{margin-top:20%; height: 700px; position: static;}
+.section-cours
+{margin-top:100px; height: 950px; position: static;}
+.section-blocus
+{margin-top:-300px; height: 800px; position: static;}
+.section-stages
+{margin-top:100px; margin-left: -10px; height: 500px; width: 104%; display: block; position: static; background:url(../img/fond-resume.png) center center; background-size: cover;}
+.section-map
+{background-size: cover; background-repeat: no-repeat;}
+
+.section-map img
+{src: url(../img/contact-map.png0);}
+
+/*infos*/
+.infos
+{margin-top: 450px;	}
+
+#bloc-blocus
+{width: 100px;}
+
+.section
+{z-index: 0;}
+
+.imgcrop
+{width: 100%; margin-top: -160px;z-index: 10; position: absolute;}
+
+.more-info
+{text-align: center; font-family: "Minion Pro"; font-style: italic; font-size: 28px; padding: 0; margin: 15px auto 0 auto;}
+
+#etudes-encadrees
+{margin-top: 60px; }
+
+#cours-particuliers
+{margin-top: 300px}
+
+#stages
+{margin-top: 150px;}
+
+#ateliers
+{margin-top: 150px;}
+
+.section-ribbon
+{margin-top: 100px; height: 150px; position: absolute; z-index: 20;}
+
+.section-ribbon img
+{height: 330px;}
+
+#matiere-francais .section-ribbon
+{width: 100%;}
+
+#matiere-sciences
+{background-position: center center;}
+
+#matiere-anglais
+{background-position: center right}
+
+#tables-de-conversation
+{margin-top: 150px;	}
+
+.section-contact-top
+{background-size: 100% 100%; background-position: center center; padding: 0; height: 500px; position: relative; z-index: 2;}
+
+.section-contact-form
+{margin-top: -50px;}
+
+.quotidien
+{margin-top: 200px;}
+
+#philo .section-ribbon
+{margin-top: 470px;}
+#philo .ribbon2
+{padding-top: 70px;}
+#philo .cgu
+{margin-bottom: 120px; }
+#philo .mission
+{margin-bottom: 200px; }
+#philo .section-contact-form
+{margin-bottom: 50px;}
+#philo .section-contact-top
+{height: 500px; height: 689px;}
+}
+
+	
+
